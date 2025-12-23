@@ -1,24 +1,39 @@
 using System;
-class AbundantNumber{
-    public static void Main(string[] args){
-        //taking input from user
-        Console.WriteLine("Enter a number: ");
-        int num=int.Parse(Console.ReadLine());
-        int sum=0;
+class AbundantNumber
+{
+    public static void Main(string[] args)
+    {
 
-        //iteration to find sum of factors
-        for(int i=1;i<num;i++){
-            if(num%i==0){
-                sum+=i;
+        //taking input from user
+        Console.WriteLine("Enter a number:");
+        int num = int.Parse(Console.ReadLine());
+
+        // Check if the number is positive
+        if (num <= 0)
+        {
+            Console.WriteLine("Please enter a positive number.");
+            return;
+        }
+
+        int sum = 0;
+
+        // Find sum of proper divisors
+        for (int i = 1; i <= num / 2; i++)
+        {
+            if (num % i == 0)
+            {
+                sum += i;
             }
         }
 
-        //output
-        if(sum>num){
-            Console.WriteLine("Abundant Number");
+        // Check abundant number
+        if (sum > num)
+        {
+            Console.WriteLine($"{num} is an Abundant Number");
         }
-        else{
-            Console.WriteLine("Not an Abundant Number")
+        else
+        {
+            Console.WriteLine($"{num} is NOT an Abundant Number");
         }
     }
 }

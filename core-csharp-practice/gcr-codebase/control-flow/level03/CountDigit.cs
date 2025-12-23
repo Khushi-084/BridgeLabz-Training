@@ -3,17 +3,23 @@ class CountDigit{
     public static void Main(string[] args){
 
         //taking input from user
-        Console.WriteLine("Enter a number: ");
-        int number=int.Parse(Console.ReadLine());
+        Console.WriteLine("Enter a number:");
+        int number = int.Parse(Console.ReadLine());
+        int count = 0;
+        if (number == 0){
+            count = 1;
+        }
+        else{
+            // handling negative numbers
+            number = Math.Abs(number); 
 
-        //iteration to count digits
-        int count=0;
-        while(number!=0){
-            number /=10;
-            count++;
+            while (number != 0)
+            {
+                number /= 10;
+                count++;
+            }
         }
 
-        //output
-        Console.WriteLine("Number of digit= "+count);
+        Console.WriteLine("Number of digits = " + count);
     }
 }
