@@ -25,11 +25,48 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 3: December 19, 2025 - Introduction to basics of C# 💻📁
-**Topic:** Operators, Data Types and Type Conversion  🔧    
-**What I Learnt:** 📚
-- Basic operation on variables. ▶️   
-- To study differnt data types and their conversion. 🔄      
-- Studied different access modifiers. 🗂️   
-- Hands-on practice using variables, data types, operators, and access modifiers. ✅      
-  
+## Day 3: December 19, 2025 - Introduction to basics of C# 💻📁            
+**Topic:** Operators, Data Types and Type Conversion 🔧              
+**What I Learnt:** 📚           
+- Learned basic operators in C# such as arithmetic, relational, and logical operators. ➕➖       
+- Understood commonly used data types like int, double, bool, char, and string. 🔢🔤            
+- Studied implicit and explicit type conversion and their practical use cases. 🔄                 
+- Hands-on practice using variables, data types, operators, and access modifiers. ✅              
+
+---
+
+## Day 4: December 19, 2025 – Introduction to Basics of C# 💻     
+**Topic:**  Operators, Data Types, Type Conversion & Memory Concepts 🔧   
+**What I Learnt:** 📚        
+- Gained understanding of C# program execution and memory areas. 🧠     
+- Learned about Stack memory, Heap memory, and Static memory (Method Area). 📦     
+- Understood static vs non-static members and their execution order. ⚙️     
+- Learned about constructors and their role in object initialization. 🏗️         
+- Studied access modifiers: public, private, protected, internal, protected internal, private protected 🔐       
+
+---
+
+## Day 5: December 22, 2025 – C# Control Flow Statements 🔁       
+**Topic:** Decision Making and Looping Constructs in C#          
+**What I Learnt:** 📚          
+- Understood the role of control flow statements in program execution. 🚦       
+- Learned about boolean values and boolean expressions. ✔️❌          
+- Used logical operators (&&, ||, !) in conditions. 🔗            
+- Implemented conditional statements: if, else if, else 🧩           
+- Learned looping constructs: for loop, while loop 🔄          
+- Understood the use of break and continue to control loop flow. ⛔➡️        
+- Learned and practiced the switch statement for multi-way decision making. 🔀         
+
+---
+
+## Day 6: December 23, 2025 – Arrays in C# 🧮          
+**Topic:** Single & Multi-Dimensional Arrays            
+**What I Learnt:** 📚         
+- Learned the basics of arrays and their importance in C#. 📦       
+- Created and accessed single-dimensional arrays. 🔢           
+- Used for loops to iterate through array elements. 🔁        
+- Modified array values dynamically. ✏️           
+- Used the Length property to avoid hard-coded values. 📏          
+- Learned multi-dimensional and 2D arrays (matrices). 🔢🔢      
+- Accessed multi-dimensional arrays using nested loops. 🔄🔄            
+- Followed best coding practices such as proper naming, indentation, comments, and input validation. ✅             
