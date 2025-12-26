@@ -69,4 +69,29 @@ Each entry includes concepts covered and skills practiced.
 - Used the Length property to avoid hard-coded values. 📏          
 - Learned multi-dimensional and 2D arrays (matrices). 🔢🔢      
 - Accessed multi-dimensional arrays using nested loops. 🔄🔄            
-- Followed best coding practices such as proper naming, indentation, comments, and input validation. ✅             
+- Followed best coding practices such as proper naming, indentation, comments, and input validation. ✅
+
+---
+
+## Day 7: December 24, 2025 - Methods in C# 📅                   
+**Topic:** Methods and Function Implementation 🔧                  
+**What I Learnt:** 📚                 
+- Understood the concept of methods in C# ✅                       
+- Learned method syntax and structure 🔢🔢               
+- Created user-defined methods  📦                           
+- Learned how to call methods from the Main() method ✏️                       
+- Solved basic logical problems by dividing code into methods 📏                            
+
+---
+
+## Day 8: December 26, 2025- Strings in C# 📅
+**Topic:** String Handling and Operations 🧵
+**What I Learnt:** 📚
+- Introduction to strings in C# 🧩        
+- Declaring and initializing strings🔄         
+- Taking string input from the user 📦          
+- Accessing characters in a string using index ✔️❌        
+- Using string properties and methods such as:Length, ToUpper(), ToLower(), Equals() 🔗           
+- Performed basic string operations: Comparing two strings, Reversing a string, Checking for palindrome strings, Counting vowels and consonants 🔐
+- Implemented programs without using built-in shortcuts where required 📏         
+- Improved understanding of string manipulation and logic building ✅         
