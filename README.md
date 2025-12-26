@@ -85,8 +85,8 @@ Each entry includes concepts covered and skills practiced.
 ---
 
 ## Day 8: December 26, 2025- Strings in C# 📅
-**Topic:** String Handling and Operations 🧵
-**What I Learnt:** 📚
+**Topic:** String Handling and Operations 🧵               
+**What I Learnt:** 📚          
 - Introduction to strings in C# 🧩        
 - Declaring and initializing strings🔄         
 - Taking string input from the user 📦          
