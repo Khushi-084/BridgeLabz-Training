@@ -2,39 +2,39 @@ using System;
 
 class SnakeAndLadder{
     // Player data for the game 
-    private static int[] positions = new int[4];
-    private static string[] names = new string[4];
-    private static int playerCount = 0;
+    private  int[] positions = new int[4];
+    private  string[] names = new string[4];
+    private  int playerCount = 0;
     
     // Random number generator
     private static Random random = new Random();
 
     // Game borad set up using array
-    private static int[] board = new int[101];
+    private  int[] board = new int[101];
 
     // Snake & Ladder configuration using arrays
-    private static int[] ladderStart = { 4, 9, 20, 28, 40 };
-    private static int[] ladderEnd   = { 14, 31, 38, 84, 59 };
+    private  int[] ladderStart = { 4, 9, 20, 28, 40 };
+    private  int[] ladderEnd   = { 14, 31, 38, 84, 59 };
 
-    private static int[] snakeStart  = { 17, 54, 62, 64, 98 };
-    private static int[] snakeEnd    = { 7, 34, 19, 60, 79 };
+    private  int[] snakeStart  = { 17, 54, 62, 64, 98 };
+    private  int[] snakeEnd    = { 7, 34, 19, 60, 79 };
 
     static void Main(string[] args){
         // Initialize board
         InitializeBoard();
 
-        int choice;
+        int option;
         
         //Main menu loop to start the game as per user's choice 
         do{
             Console.WriteLine("\n=== SNAKE & LADDER ===");
             Console.WriteLine("1. Start Game");
             Console.WriteLine("2. Exit");
-            Console.Write("Enter choice: ");
+            Console.Write("Enter option: ");
 
-            choice = Convert.ToInt32(Console.ReadLine());
+            option = Convert.ToInt32(Console.ReadLine());
 
-            switch (choice){
+            switch (option){
                 case 1:
                     SetupPlayers();
                     PlayGame();
@@ -49,7 +49,7 @@ class SnakeAndLadder{
                     break;
             }
 
-        } while (choice != 2);
+        } while (option != 2);
     }
 
     // Initializing the board using arrays
@@ -71,7 +71,7 @@ class SnakeAndLadder{
 
         if (playerCount < 2 || playerCount > 4){           //players should be from 2 to 4
             Console.WriteLine("Invalid count — defaulting to 2 players");
-            playerCount = 2;
+            return;
         }
 
         for (int i = 0; i < playerCount; i++) {          //player details
