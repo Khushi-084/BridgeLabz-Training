@@ -87,11 +87,37 @@ Each entry includes concepts covered and skills practiced.
 ## Day 8: December 26, 2025- Strings in C# 📅
 **Topic:** String Handling and Operations 🧵               
 **What I Learnt:** 📚          
-- Introduction to strings in C# 🧩        
-- Declaring and initializing strings🔄         
-- Taking string input from the user 📦          
-- Accessing characters in a string using index ✔️❌        
-- Using string properties and methods such as:Length, ToUpper(), ToLower(), Equals() 🔗           
-- Performed basic string operations: Comparing two strings, Reversing a string, Checking for palindrome strings, Counting vowels and consonants 🔐
-- Implemented programs without using built-in shortcuts where required 📏         
-- Improved understanding of string manipulation and logic building ✅         
+- Introduction to strings in C#. 🧩        
+- Declaring and initializing strings. 🔄         
+- Taking string input from the user. 📦          
+- Accessing characters in a string using index. ✔️❌        
+- Using string properties and methods such as:Length, ToUpper(), ToLower(), Equals(). 🔗           
+- Performed basic string operations: Comparing two strings, Reversing a string, Checking for palindrome strings, Counting vowels and consonants. 🔐
+- Implemented programs without using built-in shortcuts where required. 📏         
+- Improved understanding of string manipulation and logic building. ✅
+
+---
+
+## Day 9: December 29, 2025-  Scenario-Based Problem Solving 📅                           
+**Topic:** Logical Thinking & Real-World Scenarios 💡                    
+**What I Learnt:** 📚                       
+- Understood how to analyze scenario-based problem statements. 🔁                                   
+- Broke real-world problems into smaller logical steps.🚦                           
+- Applied conditional statements, loops, arrays, strings, and methods together.🧩                               
+- Improved problem-solving and debugging skills in C#. ✅                               
+- Temperature Analyzer: Analyzed temperature data and performed calculations based on conditions. 📦                       
+- Snake and Ladder Game: Implemented game logic using loops, conditions, arrays, and random numbers. 🧠                        
+- Sentence Formatter: Worked with strings to format and analyze sentences. 🔗                                      
+- Student Score Card: Calculated total, average, highest, and lowest scores using arrays. 🔁                                                
+
+---
+
+## Day 10: December 30, 2025-  Advanced Scenario-Based Applications 📅                               
+**Topic:** Mini Console Applications in C# 🖥️                           
+**What I Learnt:** 📚                              
+- Designed mini console-based applications. 🔗                                  
+- Implemented role-based logic and validation. ✅                            
+- Applied modular programming for better structure. 📦                           
+- Strengthened understanding of real-world application flow. 🧩                           
+- Library Management System: Implemented book listing, availability status, and role-based operations. 🔁                             
+- Student Quiz Grader: Compared student answers with correct answers. Calculated scores and displayed feedback. 🧠                                            
