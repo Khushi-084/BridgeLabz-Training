@@ -152,7 +152,7 @@ Each entry includes concepts covered and skills practiced.
 
 --- 
 
-## Day 14: January 3, 2025- OOPS Practice Questions 📅                                       
+## Day 14: January 3, 2026- OOPS Practice Questions 📅                                               
 **Topic:** Applying OOPS Concepts Through Practice 💻                              
 **What I Learnt:** 📚                                   
 - Revised all core OOPS concepts: Class & Object, Constructors, Inheritance, Encapsulation 🔗                                                  
@@ -164,7 +164,7 @@ Each entry includes concepts covered and skills practiced.
 
   ---
 
-## Day 15: January 5, 2025- Advanced OOPS Concepts & Case Studies 📅                                 
+## Day 15: January 5, 2026- Advanced OOPS Concepts & Case Studies 📅                                                      
 **Topic:** Encapsulation, Polymorphism, Interface & Abstract Class 🧠                            
 **What I Learnt:** 📚                                                
 - Deep understanding of Encapsulation using properties 📏                    
@@ -175,7 +175,7 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 16: January 6, 2025- Inheritance, Interfaces & Arrays 📅                                       
+## Day 16: January 6, 2026- Inheritance, Interfaces & Arrays 📅                                       
 **Topic:** Polymorphism with Interfaces and Collections 🐦                                 
 **What I Learnt:** 📚                                   
 - Implementing multiple interfaces 🌐                                      
@@ -186,7 +186,7 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 17: January 7, 2025- Data Structures Introduction 📅                         
+## Day 17: January 7, 2026- Data Structures Introduction 📅                                     
 **Topic:** Linked List & Problem Solving 🧩                           
 **What I Learnt:** 📚                                     
 - Introduction to Data Structures 📁                          
@@ -197,7 +197,7 @@ Each entry includes concepts covered and skills practiced.
   
 ---
 
-## Day 18: January 8, 2025- Collections & Polymorphic Systems 📅                                        
+## Day 18: January 8, 2026- Collections & Polymorphic Systems 📅                                                       
 **Topic:** Stack, Queue, HashMap & System Design 🏠                                         
 **What I Learnt:** 📚                                         
 - Stack data structure and its operations 💻                                              
