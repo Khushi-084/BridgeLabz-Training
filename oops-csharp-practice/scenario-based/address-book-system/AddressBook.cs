@@ -45,7 +45,22 @@ using System;
             }
         }
 
+        // UC-4: Delete contact by first name 
+        public void DeleteContact(string firstName){
+            if (contact != null && contact.FirstName.Equals(firstName)) {
+                contact = null;
+                Console.WriteLine("\nContact Deleted Successfully!");
+            }
+            else{
+                Console.WriteLine("\nContact Not Found!");
+            }
+        }
+
         private void DisplayContact(){
+            if(contact==null){
+                Console.WriteLine("\nNo Contact Available");
+            }
+    
             Console.WriteLine("\nContact Details:");
             Console.WriteLine($"Name: {contact.FirstName} {contact.LastName}");
             Console.WriteLine($"Address: {contact.Address}");
