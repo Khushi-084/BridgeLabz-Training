@@ -1,49 +1,56 @@
 using System;
-
+// Main class to run Address Book System
     class AddressBookMain{
-        public static void Main(string[] args){
-            // Creating instance of AddressBook class
+        static void Main(string[] args){
             IAddressBook addressBook = new AddressBook();
             addressBook.DisplayWelcomeMessage();
 
-            // UC-2: Taking contact details from the user 
-            Contact contact = new Contact();
+            Console.Write("\nEnter number of contacts to add: ");
+            int numberOfContacts = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("\nEnter First Name: ");
-            contact.FirstName = Console.ReadLine();
+            for (int i = 0; i < numberOfContacts; i++){
+                Console.WriteLine($"\nEnter details for Contact {i + 1}");
 
-            Console.Write("Enter Last Name: ");
-            contact.LastName = Console.ReadLine();
+                Contact contact = new Contact();
 
-            Console.Write("Enter Address: ");
-            contact.Address = Console.ReadLine();
+                Console.Write("Enter First Name: ");
+                contact.FirstName = Console.ReadLine();
 
-            Console.Write("Enter City: ");
-            contact.City = Console.ReadLine();
+                Console.Write("Enter Last Name: ");
+                contact.LastName = Console.ReadLine();
 
-            Console.Write("Enter State: ");
-            contact.State = Console.ReadLine();
+                Console.Write("Enter Address: ");
+                contact.Address = Console.ReadLine();
 
-            Console.Write("Enter Zip: ");
-            contact.Zip = Console.ReadLine();
+                Console.Write("Enter City: ");
+                contact.City = Console.ReadLine();
 
-            Console.Write("Enter Phone Number: ");
-            contact.PhoneNumber = Console.ReadLine();
+                Console.Write("Enter State: ");
+                contact.State = Console.ReadLine();
 
-            Console.Write("Enter Email: ");
-            contact.Email = Console.ReadLine();
+                Console.Write("Enter Zip: ");
+                contact.Zip = Console.ReadLine();
 
-            addressBook.AddContact(contact);
+                Console.Write("Enter Phone Number: ");
+                contact.PhoneNumber = Console.ReadLine();
 
-             // UC-3: Edit Contact
+                Console.Write("Enter Email: ");
+                contact.Email = Console.ReadLine();
+
+                addressBook.AddContact(contact);
+            }
+            // Display all contacts added
+            addressBook.DisplayAllContacts();
+            
+            // Edit a contact by first name
             Console.Write("\nEnter First Name to Edit Contact: ");
-            string nameToEdit = Console.ReadLine();
-            addressBook.EditContact(nameToEdit);
-
-             // UC-4: Delete Contact
+            addressBook.EditContact(Console.ReadLine());
+            
+            // Display all contacts after editing
             Console.Write("\nEnter First Name to Delete Contact: ");
-            string deleteName = Console.ReadLine();
-            addressBook.DeleteContact(deleteName);
+            addressBook.DeleteContact(Console.ReadLine());
+
+            // Display all contacts after deletion
+            addressBook.DisplayAllContacts();
         }
     }
-
