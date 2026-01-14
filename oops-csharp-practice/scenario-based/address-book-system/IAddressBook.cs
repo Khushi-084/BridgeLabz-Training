@@ -3,5 +3,6 @@ using System;
     interface IAddressBook{
         
         void DisplayWelcomeMessage();
+        void AddContact(Contact contact);      // UC-2 added
     }
 
