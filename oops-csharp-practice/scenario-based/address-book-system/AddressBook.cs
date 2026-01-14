@@ -1,13 +1,15 @@
 using System;
+using System.Collections.Generic;
 
-// Implementation of Address Book System
+    // Implementation of Address Book System
     class AddressBook : IAddressBook{
-        private Contact contact;      // single contact for UC-2 & UC-3
-
+        private  Contact[] contacts= new Contact[100];     // Array to store contacts
+        private int count=0;                               // Counter for number of contacts
         public void DisplayWelcomeMessage(){
             Console.WriteLine("Welcome to Address Book Program");
         }
 
+        // UC-2: Add new contact
         public void AddContact(Contact contact){
             this.contact = contact;
             Console.WriteLine("\nContact Added Successfully!");
@@ -56,11 +58,13 @@ using System;
             }
         }
 
-        private void DisplayContact(){
-            if(contact==null){
+        private void DisplayAllContacts(){
+            if(count==0){
                 Console.WriteLine("\nNo Contact Available");
+                return;
             }
-    
+            Console.WriteLine("\nAll Contacts in Address Book:");
+            for(int i=0;i<count;i++){
             Console.WriteLine("\nContact Details:");
             Console.WriteLine($"Name: {contact.FirstName} {contact.LastName}");
             Console.WriteLine($"Address: {contact.Address}");
@@ -71,3 +75,4 @@ using System;
             Console.WriteLine($"Email: {contact.Email}");
         }
     }
+}
