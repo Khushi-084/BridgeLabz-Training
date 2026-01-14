@@ -38,8 +38,12 @@ using System;
              // UC-3: Edit Contact
             Console.Write("\nEnter First Name to Edit Contact: ");
             string nameToEdit = Console.ReadLine();
-
             addressBook.EditContact(nameToEdit);
+
+             // UC-4: Delete Contact
+            Console.Write("\nEnter First Name to Delete Contact: ");
+            string deleteName = Console.ReadLine();
+            addressBook.DeleteContact(deleteName);
         }
     }
 
