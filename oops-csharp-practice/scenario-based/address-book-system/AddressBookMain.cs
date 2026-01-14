@@ -34,6 +34,12 @@ using System;
             contact.Email = Console.ReadLine();
 
             addressBook.AddContact(contact);
+
+             // UC-3: Edit Contact
+            Console.Write("\nEnter First Name to Edit Contact: ");
+            string nameToEdit = Console.ReadLine();
+
+            addressBook.EditContact(nameToEdit);
         }
     }
 
