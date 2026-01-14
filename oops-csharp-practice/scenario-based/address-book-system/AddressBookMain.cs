@@ -1,11 +1,39 @@
 using System;
-// Main class for Address Book System
-    class AddressBookMain{
 
+    class AddressBookMain{
         public static void Main(string[] args){
-            // Creating an instance of AddressBook and displaying welcome message
+            // Creating instance of AddressBook class
             IAddressBook addressBook = new AddressBook();
             addressBook.DisplayWelcomeMessage();
+
+            // UC-2: Taking contact details from the user 
+            Contact contact = new Contact();
+
+            Console.Write("\nEnter First Name: ");
+            contact.FirstName = Console.ReadLine();
+
+            Console.Write("Enter Last Name: ");
+            contact.LastName = Console.ReadLine();
+
+            Console.Write("Enter Address: ");
+            contact.Address = Console.ReadLine();
+
+            Console.Write("Enter City: ");
+            contact.City = Console.ReadLine();
+
+            Console.Write("Enter State: ");
+            contact.State = Console.ReadLine();
+
+            Console.Write("Enter Zip: ");
+            contact.Zip = Console.ReadLine();
+
+            Console.Write("Enter Phone Number: ");
+            contact.PhoneNumber = Console.ReadLine();
+
+            Console.Write("Enter Email: ");
+            contact.Email = Console.ReadLine();
+
+            addressBook.AddContact(contact);
         }
     }
 
