@@ -1,8 +1,10 @@
 using System;
+// Main class of Address Book
 class AddressBookMain{
-    publicstatic void Main(string[] args){
+    static void Main(string[] args){
+        // creating object of AddressBookUtility
         AddressBookUtility utility = new AddressBookUtility();
-        utility.DisplayWelcomeMessage();           // UC-0
+        utility.DisplayWelcomeMessage();     // UC-1
         int choice = 0;
         do{
             Console.WriteLine("\n---- MENU ----");
@@ -15,16 +17,16 @@ class AddressBookMain{
             choice = Convert.ToInt32(Console.ReadLine());
             switch (choice){
                 case 1:
-                    utility.AddContact();            // UC-1+UC-2
+                    utility.AddContact();                     // UC-1+UC-2
                     break;
                 case 2:
-                    utility.AddMultipleContacts();   // UC-5
+                    utility.AddMultipleContacts();            // UC-5
                     break;
                 case 3:
-                    utility.EditContact();           // UC-3
+                    utility.EditContact();                  // UC-3
                     break;
                 case 4:
-                    utility.DeleteContact();         // UC-4
+                    utility.DeleteContact();                // UC-4
                     break;
                 case 5:
                     Console.WriteLine("Exiting Program.");
