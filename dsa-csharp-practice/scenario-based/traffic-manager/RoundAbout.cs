@@ -1,66 +1,75 @@
-using System;
-//Circular Linked List operations
+class RoundNode{
+    public Vehicle Data;
+    public RoundNode Next;
 
-class RoundAbout{
-    //keeps track of last vehicle
-    private VehicleNode last;
-    public RoundAbout(){
-        last =null;
+    public RoundNode(Vehicle vehicle)
+    {
+        Data = vehicle;
+        Next = null;
     }
+}
 
+class Roundabout{
+    private RoundNode tail;
 
-    //Add vehicle to the roundabout
-    public void AddVehicle(string vehicleNumber){
-        if (vehicleNumber == null){
-            return;
-        }
-        VehicleNode newNode=new VehicleNode(vehicleNumber);
+    public void AddVehicle(Vehicle vehicle){
+        RoundNode newNode = new RoundNode(vehicle);
 
-        //if roundabot is empty
-        if (last == null){
-            last=newNode;
-            last.Next=last;
-        }else{
-         newNode.Next=last.Next;
-         last.Next=newNode;
-         last=newNode;   
-        }
-        Console.WriteLine($"Vehicle {vehicleNumber} entered");
-    }
-
-
-    //remove vehicle from the roundabout
-    public void RemoveVehicle(){
-        if (last == null){
-            Console.WriteLine("Roundabout is empty");
+        if (tail == null) {
+            tail = newNode;
+            tail.Next = tail;
             return;
         }
 
-
-        //only one vehicle exists
-        if (last.Next == last){
-            Console.WriteLine($"vehicle {last.vehicleNumber} exited the roundabout");
-            last =null;
-        }else{
-         VehicleNode firstVehicle=last.Next;
-         Console.WriteLine($"Vehicle {firstVehicle.vehicleNumber} exited the roundabout");
-         last.Next=firstVehicle.Next;   
-        }
+        newNode.Next = tail.Next;
+        tail.Next = newNode;
+        tail = newNode;
     }
 
-    
-    //Display current vehicle in the roundabout
-    public void Display(){
-        if (last == null){
-            Console.WriteLine("Roundabout is empty");
-            return;
-        }
-        Console.WriteLine("Rounabout state");
-        vehicleNode temp=last.Next;
+    public bool RemoveVehicle(string number){
+        if (tail == null)
+            return false;
+
+        RoundNode current = tail.Next;
+        RoundNode prev = tail;
+
         do{
-            Console.WriteLine(temp.VehicleNumber+"=>");
-            temp=temp.Next;
-        }while(temp!=last.Next);
-        Console.WriteLine("back to start");
+            if (current.Data.Number == number) {
+                if (current == tail && current.Next == tail){
+                    tail = null;
+                }
+                else{
+                    prev.Next = current.Next;
+                    if (current == tail)
+                        tail = prev;
+                }
+                return true;
+            }
+
+            prev = current;
+            current = current.Next;
+
+        } while (current != tail.Next);
+
+        return false;
+    }
+
+    public void Display(){
+        if (tail == null){
+            Console.WriteLine("Roundabout is empty.");
+            return;
+        }
+
+        RoundNode temp = tail.Next;
+        do{
+            Console.Write(temp.Data.Number + " -> ");
+            temp = temp.Next;
+        } while (temp != tail.Next);
+
+        Console.WriteLine("Back to Start");
+    }
+
+    public bool IsEmpty(){
+        return tail == null;
     }
 }

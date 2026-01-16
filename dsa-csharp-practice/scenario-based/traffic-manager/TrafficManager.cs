@@ -1,50 +1,43 @@
-using System;
 class TrafficManager{
-    public static void Main(string[] args){
-        RoundAbout roundabout = new RoundAbout();
-        Console.Write("Enter maximum waiting queue size: ");
-        int size = Convert.ToInt32(Console.ReadLine());
-        VehicleQueue waitingQueue = new VehicleQueue(size);
-        bool exit = false;
+    private Roundabout roundabout = new Roundabout();
+    private VehicleQueue queue = new VehicleQueue(10);
 
-        while (!exit){
-            Console.WriteLine("\n--------traffic Manager Menu--------");
-            Console.WriteLine("1. Add vehicle to waiting queue");
-            Console.WriteLine("2. Move vehicle from queue to roundabout");
-            Console.WriteLine("3. Remove vehicle from roundabout");
-            Console.WriteLine("4. View roundabout state");
-            Console.WriteLine("5. View waiting queue");
-            Console.WriteLine("6. Exit");
-            Console.Write("Enter your choice: ");
-            int choice = Convert.ToInt32(Console.ReadLine());
-            
-            switch (choice){
-                case 1:
-                    Console.Write("Enter vehicle number: ");
-                    string vehicle = Console.ReadLine();
-                    waitingQueue.Enqueue(vehicle);
-                    break;
-                case 2:
-                    string nextVehicle = waitingQueue.Dequeue();
-                    roundabout.AddVehicle(nextVehicle);
-                    break;
-                case 3:
-                    roundabout.RemoveVehicle();
-                    break;
-                case 4:
-                    roundabout.Display();
-                    break;
-                case 5:
-                    waitingQueue.PrintQueue();
-                    break;
-                case 6:
-                    exit = true;
-                    Console.WriteLine("Traffic Manager closed.");
-                    break;
-                default:
-                    Console.WriteLine("Try again.");
-                    break;
+    public void VehicleArrives(){
+        Console.Write("Enter vehicle number: ");
+        string number = Console.ReadLine();
+
+        if (roundabout.IsEmpty()){
+            roundabout.AddVehicle(new Vehicle(number));
+            Console.WriteLine("Vehicle entered roundabout.");
+        }
+        else{
+            queue.Enqueue(new Vehicle(number));
+        }
+    }
+
+    public void VehicleExits(){
+        Console.Write("Enter exiting vehicle number: ");
+        string number = Console.ReadLine();
+
+        if (roundabout.RemoveVehicle(number)){
+            Console.WriteLine("Vehicle exited roundabout.");
+
+            Vehicle next = queue.Dequeue();
+            if (next != null){
+                roundabout.AddVehicle(next);
+                Console.WriteLine("Waiting vehicle entered roundabout.");
             }
         }
+        else{
+            Console.WriteLine("Vehicle not found in roundabout.");
+        }
+    }
+
+    public void DisplayState(){
+        Console.WriteLine("Roundabout Status:");
+        roundabout.Display();
+
+        Console.WriteLine("Waiting Queue:");
+        queue.Display();
     }
 }

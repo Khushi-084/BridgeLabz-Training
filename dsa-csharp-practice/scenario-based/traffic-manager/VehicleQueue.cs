@@ -1,48 +1,71 @@
-using System;
-using System.Collections.Generic;
+class QueueNode{
+    public Vehicle Data;
+    public QueueNode Next;
 
-//Manages vehicles waiting to enter the roundabout
+    public QueueNode(Vehicle vehicle)
+    {
+        Data = vehicle;
+        Next = null;
+    }
+}
+
 class VehicleQueue{
-    private Queue<string> queue;
+    private QueueNode front, rear;
+    private int size;
     private int capacity;
+
     public VehicleQueue(int capacity){
-        this.capacity=capacity;
-        queue=new Queue<string>();
+        this.capacity = capacity;
+        size = 0;
     }
 
-
-    //Add vehicle to the queue
-    public void Enqueue(string vehicleNumber){
-        if (queue.Count == capacity){
-            Console.WriteLine("cannot add more vehicles.");
-            return;
+    public bool Enqueue(Vehicle vehicle){
+        if (size == capacity){
+            Console.WriteLine("Queue Overflow: Waiting area full.");
+            return false;
         }
-        queue.Enqueue(vehicleNumber);
-        Console.WriteLine($"Vehicle {vehicleNumber} added to the waiting queue");
+
+        QueueNode newNode = new QueueNode(vehicle);
+
+        if (rear == null){
+            front = rear = newNode;
+        }
+        else{
+            rear.Next = newNode;
+            rear = newNode;
+        }
+
+        size++;
+        return true;
     }
 
-
-    //Remove vehicle  from the queueu
-    public string Dequeue(){
-        if (queue.Count == 0){
-            Console.WriteLine("No vehicle in waiting");
+    public Vehicle Dequeue(){
+        if (front == null){
+            Console.WriteLine("Queue Underflow: No vehicles waiting.");
             return null;
         }
-        return queue.Dequeue();
+
+        Vehicle vehicle = front.Data;
+        front = front.Next;
+
+        if (front == null)
+            rear = null;
+
+        size--;
+        return vehicle;
     }
 
+    public void Display(){
+        if (front == null){
+            Console.WriteLine("No vehicles in waiting queue.");
+            return;
+        }
 
-    //Print Queue
-    public void PrintQueue(){
-     if (queue.Count == 0){
-        Console.WriteLine("Waiting queue is empty.");
-        return;
-    }
-    
-    Console.Write("Waiting Queue: ");
-    foreach (string v in queue){
-        Console.Write(v + " ");
-    }
-    Console.WriteLine();
+        QueueNode temp = front;
+        while (temp != null){
+            Console.Write(temp.Data.Number + " <- ");
+            temp = temp.Next;
+        }
+        Console.WriteLine("Rear");
     }
 }
