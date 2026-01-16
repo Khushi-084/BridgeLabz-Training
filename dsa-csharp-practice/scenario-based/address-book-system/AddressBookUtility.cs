@@ -150,7 +150,7 @@ public class AddressBookUtility : IAddressBook{
     public void AddMultipleContacts(){
     char choice;
     do{
-        AddContact();                                // reusing UC-1 & UC-2 method
+        AddContact();                                                        // reusing UC-1 & UC-2 method
         Console.Write("\nDo you want to add another contact? (yes/no): ");
         choice = Convert.ToChar(Console.ReadLine().ToLower());
         } while (choice == 'y');
@@ -368,7 +368,7 @@ public class AddressBookUtility : IAddressBook{
     Console.WriteLine("total persons in state" + state + " : " + total);
     }
 
-    
+
     // UC-11 : Sort contacts alphabetically by First Name using ARRAY only
     public void SortContactsByName(){
     // Simple Bubble Sort on contacts array
@@ -388,4 +388,7 @@ public class AddressBookUtility : IAddressBook{
         }
     }
 }
+
+
+
     
