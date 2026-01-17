@@ -19,7 +19,6 @@ class FlashDealzMenu{
             Console.Write("Enter choice: ");
 
             choice = int.Parse(Console.ReadLine());
-
             switch (choice){
                 case 1:
                     service.AddProduct();
@@ -37,7 +36,6 @@ class FlashDealzMenu{
                     Console.WriteLine("Invalid choice.");
                     break;
             }
-
         } while (choice != 4);
     }
 }

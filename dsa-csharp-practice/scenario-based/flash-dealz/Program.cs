@@ -1,5 +1,7 @@
-class Program{
-    public static void Main(string[] args){
+class Program
+{
+    public static void Main(string[] args)
+    {
         // interface reference 
         IFlashDealz utility = new FlashDealzUtility();
         FlashDealzMenu menu = new FlashDealzMenu(utility);

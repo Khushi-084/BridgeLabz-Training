@@ -1,5 +1,7 @@
 using System;
-class Product{
+// encapsulated class
+class Product
+{
     // attributes of the product class 
     private string name;
     private int discount;

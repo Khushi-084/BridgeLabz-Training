@@ -28,7 +28,6 @@ class FlashDealzUtility : IFlashDealz{
             Console.WriteLine("No products available.");
             return;
         }
-
         Console.WriteLine("\n--- Product List ---");
         for (int i = 0; i < count; i++){
             products[i].Display();
@@ -48,7 +47,6 @@ class FlashDealzUtility : IFlashDealz{
     private int Partition(Product[] arr, int low, int high) {
         int pivot = arr[high].GetDiscount();
         int i = low - 1;
-
         for (int j = low; j < high; j++){
             if (arr[j].GetDiscount() > pivot){
                 i++;
