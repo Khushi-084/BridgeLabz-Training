@@ -1,7 +1,9 @@
-namespace ExamProctor{
-    internal class Program{
-        static void Main(string[] args){
-            new ExamMenu().Start();
+﻿namespace ExamProctor {
+
+    class Program {
+        static void Main(){
+            ExamMenu menu = new ExamMenu();
+            menu.ShowMenu();
         }
     }
 }
