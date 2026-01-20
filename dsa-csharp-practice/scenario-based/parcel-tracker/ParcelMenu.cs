@@ -1,21 +1,39 @@
-using System;
+class ParcelMenu {
 
-namespace ParcelTracker{
-    internal class ParcelMenu{
-        private ParcelUtility utility = new ParcelUtility();
+    public void ShowMenu(ParcelLinkedList list){
+        int choice;
 
-        public void Start(){
-            int choice;
-            do{
-                Console.WriteLine("\n1.Add Stage 2.Insert Checkpoint 3.Display 4.Exit");
-                choice = Convert.ToInt32(Console.ReadLine());
+        do{
+            Console.WriteLine("\n--- Parcel Tracker Menu ---");
+            Console.WriteLine("1. Track Parcel");
+            Console.WriteLine("2. Add Custom Checkpoint");
+            Console.WriteLine("3. Exit");
+            Console.Write("Enter choice: ");
 
-                switch (choice){
-                    case 1: utility.AddStage(); break;
-                    case 2: utility.InsertCheckpoint(); break;
-                    case 3: utility.Display(); break;
-                }
-            } while (choice != 4);
-        }
+            choice = int.Parse(Console.ReadLine());
+
+            switch(choice){
+                case 1:
+                    list.TrackParcel();
+                    break;
+
+                case 2:
+                    Console.Write("Enter existing stage: ");
+                    string oldStage = Console.ReadLine();
+                    Console.Write("Enter new checkpoint: ");
+                    string newStage = Console.ReadLine();
+                    list.AddAfterStage(oldStage, newStage);
+                    break;
+
+                case 3:
+                    Console.WriteLine("Exiting Menu...");
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid choice!");
+                    break;
+            }
+
+        } while(choice != 3);
     }
 }
