@@ -239,4 +239,37 @@ Each entry includes concepts covered and skills practiced.
 - Understood time complexity basics for searching techniques 🧵                                                                           
 - Practice & Scenario-Based Assignments:Implemented Linear Search program, Implemented Binary Search program, Bookshelf Management System, Movie Scheduler System 📦                                             
 
+---
+
+## Day 24: January 13, 2026 – Runtime Analysis & Big-O Notation 📅
+**Topic:** Algorithm Analysis & Code Optimization ⏱️📊
+**What I Learnt:** 📚
+- Understood What is Runtime Analysis and why it is important in real-world applications 🧠
+- Learned Big-O Notation and its role in measuring algorithm efficiency 📈
+- Studied Time Complexity Analysis for different algorithms ⏳
+- Learned Space Complexity Analysis and memory usage considerations 💾
+- Understood Best Case, Worst Case, and Average Case complexities 🔍
+- Learned practical guidelines for optimizing C# code such as reducing loops, choosing efficient data structures, and avoiding redundant computations ⚙️
+- Practice & Scenario-Based Assignments: Analyzed runtime and space complexity of the Address Book System 🏠
+
+---
+
+## Day 25: January 14, 2026 – Browser Buddy Runtime Analysis 📅
+**Topic:** Algorithm Runtime Analysis on Real-World Application 🌐
+**What I Learnt:** 📚
+- Applied runtime analysis concepts to a browser-based system 🧠
+- Compared different searching and sorting approaches used in applications 🔍
+- Understood how frequent user interactions affect performance ⚡
+- Practice & Scenario-Based Assignments: Browser Buddy Application, Evaluated bookmark lookup efficiency and studied browser history search optimization 💾
+
+--- 
+
+## Day 26: January 15, 2026 – Scenario-Based Systems & Analysis 📅
+**Topic:** Algorithm Application & Performance Comparison 🚦📚
+**What I Learnt:** 📚
+- Strengthened understanding of algorithm selection based on use case 🧩
+- Compared runtime efficiency of multiple algorithms 🧠
+- Applied searching and sorting concepts in different scenarios ⚙️
+- Practice & Scenario-Based Assignments: Traffic Manager System, Bookshelf Management System 📚
+- Solved daily scenario-based questions focusing on algorithm comparison and optimization 📊
 
