@@ -278,53 +278,45 @@ Each entry includes concepts covered and skills practiced.
  ## Day 25 — January 17, 2026 — Scenario-Based Applications & Algorithm Practice📅
 **Topic:** Flash Deals, Fitness Tracker & Algorithm Practice 💻📊
  **What I Learned:** 📚
-- Solved scenario-based problems using C# and OOPS concepts
-- Practiced algorithms and sorting techniques
-- Strengthened logical thinking and problem-solving skills
+- Solved scenario-based problems using C# and OOPS concepts ✅
+- Practiced algorithms and sorting techniques 📊
+- Strengthened logical thinking and problem-solving skills🔍
 - Applied real-world scenarios to code design
 - Practice & Scenario-Based Assignments: Flash Deals System, Fitness Tracker Application 🏃
-- Solved daily scenario-based questions focusing on algorithm usage and optimization
+- Solved daily scenario-based questions focusing on algorithm usage and optimization ⚙️
 
 ---
 
 ## Day 26 — January 19, 2026 — Generics & Scenario-Based Systems 📅
 **Topic:** Generics in C#, Parcel Tracker & Exam Proctor 🧠📦
-**What I Learned:**
-- Learned Generics in C# and their benefits
-- Implemented type-safe reusable classes and methods
-- Understood how generics improve scalability and performance
-- Practice & Scenario-Based Assignments: Parcel Tracker System, Exam Proctor System
-- Practiced daily scenario-based questions using generic programming concepts
+**What I Learned:** 📚
+- Learned Generics in C# and their benefits 🏃
+- Implemented type-safe reusable classes and methods 💾
+- Understood how generics improve scalability and performance 🧩
+- Practice & Scenario-Based Assignments: Parcel Tracker System, Exam Proctor System ⚙️
+- Practiced daily scenario-based questions using generic programming concepts 🧠
 
 ---
 
  ## Day 27 — January 20, 2026 — Collections, Sorting & Backtracking
 **Topic:** Collections, Radix Sort, Backtracking & Advanced Scenarios 🔁📚
-**What I Learned:**
-- Learned Collections framework in C#
-- Understood Radix Sort and its use for large numeric data
-- Learned Backtracking technique and its applications
-- Analyzed time and space complexity of recursive solutions
--  Practice & Scenario-Based Assignments: Sorting Aadhar Numbers using Radix Sort, Password Cracker Simulator (Backtracking)
+**What I Learned:** 📚
+- Learned Collections framework in C# 🏃
+- Understood Radix Sort and its use for large numeric data 🔍
+- Learned Backtracking technique and its applications ✅
+- Analyzed time and space complexity of recursive solutions ⚙️
+-  Practice & Scenario-Based Assignments: Sorting Aadhar Numbers using Radix Sort, Password Cracker Simulator (Backtracking) 🧩
 
 ---
 
-## Day 28 — January 20, 2026 — Advanced Sorting & Queue-Based Systems
+## Day 28 — January 21, 2026 — Advanced Sorting & Queue-Based Systems
 **Topic:** Merge Sort, Queue & HashMap Applications 🧮🛒
-**What I Learned:**
-- Deep understanding of Merge Sort and its stability
-- Learned merging of multiple sorted sublists
-- Used Queue and HashMap together for real-time systems
-- Practice & Scenario-Based Assignments: EduResults – Rank Sheet Generator (Merge Sort),  SmartCheckout – Supermarket Billing Queue (Queue + HashMap)
+**What I Learned:** 📚
+- Deep understanding of Merge Sort and its stability 🧠
+- Learned merging of multiple sorted sublists ✅
+- Used Queue and HashMap together for real-time systems 🔍
+- Practice & Scenario-Based Assignments: EduResults – Rank Sheet Generator (Merge Sort),  SmartCheckout – Supermarket Billing Queue (Queue + HashMap) 💾
 
 ---
-
-## Day 29 — January 21, 2026 — Queue & Sorting with Large Data Streams
-**Topic:** Queue Management & Stable Sorting Systems 📊🔄
-**What I Learned:**
-- Applied Queue operations in real-time billing systems
-- Used Merge Sort for handling large datasets
-- Understood importance of stable sorting in ranking systems
--  Practice & Scenario-Based Assignments
 
 
