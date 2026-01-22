@@ -35,7 +35,7 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 4: December 19, 2025 – Introduction to Basics of C# 💻     
+## Day 4: December 20, 2025 – Introduction to Basics of C# 💻     
 **Topic:**  Operators, Data Types, Type Conversion & Memory Concepts 🔧   
 **What I Learnt:** 📚        
 - Gained understanding of C# program execution and memory areas. 🧠     
@@ -208,7 +208,7 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 21: January 9, 2026 - Stack & Queue Concepts 📅                                                    
+## Day 19: January 9, 2026 - Stack & Queue Concepts 📅                                                    
 **Topic:** Understanding Stack & Queue Data Structures 🧱📥                                                              
 **What I Learnt:** 📚                                                                                                                                                       
 - Understood the concept of Stack (LIFO – Last In First Out) 🧵                                                              
@@ -220,7 +220,7 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 22: January 12, 2026- Scenario-Based Programming 📅                                                                                   
+## Day 20: January 12, 2026- Scenario-Based Programming 📅                                                                                   
 **Topic:** Real-World Problem Solving Using OOP 🏭💰                                                                                     
 **What I Learnt:** 📚                                                                     
 - Implemented scenario-based programs using OOP concepts 📏                                                                
@@ -231,7 +231,7 @@ Each entry includes concepts covered and skills practiced.
 
 --
 
-## Day 23: January 13, 2026 - Searching Algorithms & Scenario-Based Applications 📅                                                               
+## Day 21: January 13, 2026 - Searching Algorithms & Scenario-Based Applications 📅                                                               
 **Topic:** Linear Search, Binary Search & Search-Based Systems 🔍📚                                                                      
 **What I Learnt:** 📚                                                                
 - Learned Linear Search algorithm 🌳                                         
@@ -241,7 +241,7 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 24: January 13, 2026 – Runtime Analysis & Big-O Notation 📅
+## Day 22: January 14, 2026 – Runtime Analysis & Big-O Notation 📅
 **Topic:** Algorithm Analysis & Code Optimization ⏱️📊
 **What I Learnt:** 📚
 - Understood What is Runtime Analysis and why it is important in real-world applications 🧠
@@ -254,7 +254,7 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 25: January 14, 2026 – Browser Buddy Runtime Analysis 📅
+## Day 23: January 15, 2026 – Browser Buddy Runtime Analysis 📅
 **Topic:** Algorithm Runtime Analysis on Real-World Application 🌐
 **What I Learnt:** 📚
 - Applied runtime analysis concepts to a browser-based system 🧠
@@ -264,7 +264,7 @@ Each entry includes concepts covered and skills practiced.
 
 --- 
 
-## Day 26: January 15, 2026 – Scenario-Based Systems & Analysis 📅
+## Day 24: January 16, 2026 – Scenario-Based Systems & Analysis 📅
 **Topic:** Algorithm Application & Performance Comparison 🚦📚
 **What I Learnt:** 📚
 - Strengthened understanding of algorithm selection based on use case 🧩
