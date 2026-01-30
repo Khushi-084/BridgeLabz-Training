@@ -162,7 +162,7 @@ Each entry includes concepts covered and skills practiced.
 - Practice & Assignments: Solved multiple practice questions based on OOPS concepts, Implemented real-world problems using proper class design 💻                            
 - Student Quiz Grader:Compared student answers with correct answers. Calculated scores and displayed feedback. 🧠
 
-  ---
+ ---
 
 ## Day 15: January 5, 2026- Advanced OOPS Concepts & Case Studies 📅                                                      
 **Topic:** Encapsulation, Polymorphism, Interface & Abstract Class 🧠                            
