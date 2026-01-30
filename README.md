@@ -175,148 +175,217 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 16: January 6, 2026- Inheritance, Interfaces & Arrays 📅                                       
-**Topic:** Polymorphism with Interfaces and Collections 🐦                                 
-**What I Learnt:** 📚                                   
-- Implementing multiple interfaces 🌐                                      
-- Using arrays to store objects 🧩                                               
-- Runtime type checking using is operator 📏                                              
-- Applying polymorphism while iterating collections 🏗️                                                                                                                                
-- Practice & Scenario-Based Assignments:Bird Sanctuary System(Scenario: EcoWing Wildlife Conservation Center), Customer Service Call Log Manager(Stored call logs using arrays) 💻            
+## Day 16: January 6, 2026- Inheritance, Interfaces & Arrays 📅                                                               
+**Topic:** Polymorphism with Interfaces and Collections 🐦                                                 
+**What I Learnt:** 📚                                                         
+- Implementing multiple interfaces 🌐                                                           
+- Using arrays to store objects 🧩                                                                                           
+- Runtime type checking using is operator 📏                                                                                                                                 
+- Applying polymorphism while iterating collections 🏗️                                                                                                                                              
+- Practice & Scenario-Based Assignments:Bird Sanctuary System(Scenario: EcoWing Wildlife Conservation Center), Customer Service Call Log Manager(Stored call logs using arrays) 💻                     
 
 ---
 
-## Day 17: January 7, 2026- Data Structures Introduction 📅                                     
-**Topic:** Linked List & Problem Solving 🧩                           
-**What I Learnt:** 📚                                     
-- Introduction to Data Structures 📁                          
-- Concept of Linked List ✅                                  
-- Difference between arrays and linked lists 🌐                                   
-- Practical use cases of linked lists 📏                                                                                         
-- Practice & Scenario-Based Assignments:Employee Wage Computation Problem(Calculated employee wages based on conditions). 📦                             
+## Day 17: January 7, 2026- Data Structures Introduction 📅                                                             
+**Topic:** Linked List & Problem Solving 🧩                                                                 
+**What I Learnt:** 📚                                                                                 
+- Introduction to Data Structures 📁                                                                     
+- Concept of Linked List ✅                                                                       
+- Difference between arrays and linked lists 🌐                                                                       
+- Practical use cases of linked lists 📏                                                                                                                           
+- Practice & Scenario-Based Assignments:Employee Wage Computation Problem(Calculated employee wages based on conditions). 📦                                                    
   
 ---
 
-## Day 18: January 8, 2026- Collections & Polymorphic Systems 📅                                                       
-**Topic:** Stack, Queue, HashMap & System Design 🏠                                         
-**What I Learnt:** 📚                                         
-- Stack data structure and its operations 💻                                              
-- Queue data structure and FIFO behavior 🧮                                                      
-- HashMap and hashing function basics 🌐                                              
-- Choosing correct data structures for scenarios 🏗️                                                    
-- Practice & Scenario-Based Assignments:Smart Home Automation(Demonstrated polymorphism). ✅                            
+## Day 18: January 8, 2026- Collections & Polymorphic Systems 📅                                                                                   
+**Topic:** Stack, Queue, HashMap & System Design 🏠                                                                                                   
+**What I Learnt:** 📚                                                                               
+- Stack data structure and its operations 💻                                                                            
+- Queue data structure and FIFO behavior 🧮                                                                                         
+- HashMap and hashing function basics 🌐                                                                                  
+- Choosing correct data structures for scenarios 🏗️                                                                                                       
+- Practice & Scenario-Based Assignments:Smart Home Automation(Demonstrated polymorphism). ✅                                                                   
+                  
+---
+
+## Day 19: January 9, 2026 - Stack & Queue Concepts 📅                                                                                                   
+**Topic:** Understanding Stack & Queue Data Structures 🧱📥                                                                                           
+**What I Learnt:** 📚                                                                                                                                                                    
+- Understood the concept of Stack (LIFO – Last In First Out) 🧵                                                                                                   
+- Understood the concept of Queue (FIFO – First In First Out) ⚙️                                                                                
+- Learned basic stack operations:Push, Pop, Peek 📏                                                                                    
+- Learned basic queue operations:Enqueue, Dequeue 📦                                                                                 
+- Studied real-world use cases of Stack and Queue ▶️                                                                                                                 
+- Practice & Assignments:Implemented basic programs, Focused on understanding core logic rather than scenarios. 🌳                                                                                  
 
 ---
 
-## Day 19: January 9, 2026 - Stack & Queue Concepts 📅                                                    
-**Topic:** Understanding Stack & Queue Data Structures 🧱📥                                                              
-**What I Learnt:** 📚                                                                                                                                                       
-- Understood the concept of Stack (LIFO – Last In First Out) 🧵                                                              
-- Understood the concept of Queue (FIFO – First In First Out) ⚙️                                                    
-- Learned basic stack operations:Push, Pop, Peek 📏                                                            
-- Learned basic queue operations:Enqueue, Dequeue 📦                                                             
-- Studied real-world use cases of Stack and Queue ▶️                                                                  
-- Practice & Assignments:Implemented basic programs, Focused on understanding core logic rather than scenarios. 🌳                                                            
+## Day 20: January 12, 2026- Scenario-Based Programming 📅                                                                                    
+**Topic:** Real-World Problem Solving Using OOP 🏭💰                                                                                                    
+**What I Learnt:** 📚                                                                                                
+- Implemented scenario-based programs using OOP concepts 📏                                                                                                 
+- Designed classes and methods for real-world applications ▶️                                                                             
+- Applied conditional logic for decision making ✅                                                                                         
+- Improved modular and structured coding approach ⚙️                                                                                       
+- Practice & Scenario-Based Assignments:Metal Custom Manufacturing System, Implemented loan eligibility check, Displayed approval or rejection report 🔑                                                 
 
 ---
 
-## Day 20: January 12, 2026- Scenario-Based Programming 📅                                                                                   
-**Topic:** Real-World Problem Solving Using OOP 🏭💰                                                                                     
-**What I Learnt:** 📚                                                                     
-- Implemented scenario-based programs using OOP concepts 📏                                                                
-- Designed classes and methods for real-world applications ▶️                                                
-- Applied conditional logic for decision making ✅                                                     
-- Improved modular and structured coding approach ⚙️                                                                
-- Practice & Scenario-Based Assignments:Metal Custom Manufacturing System, Implemented loan eligibility check, Displayed approval or rejection report 🔑                  
+## Day 21: January 13, 2026 - Searching Algorithms & Scenario-Based Applications 📅                                                                                              
+**Topic:** Linear Search, Binary Search & Search-Based Systems 🔍📚                                                                                           
+**What I Learnt:** 📚                                                                                     
+- Learned Linear Search algorithm 🌳                                                                
+- Learned Binary Search algorithm 🌐                                                                                  
+- Understood time complexity basics for searching techniques 🧵                                                                                                  
+- Practice & Scenario-Based Assignments:Implemented Linear Search program, Implemented Binary Search program, Bookshelf Management System, Movie Scheduler System 📦                                                   
+---
 
---
-
-## Day 21: January 13, 2026 - Searching Algorithms & Scenario-Based Applications 📅                                                               
-**Topic:** Linear Search, Binary Search & Search-Based Systems 🔍📚                                                                      
-**What I Learnt:** 📚                                                                
-- Learned Linear Search algorithm 🌳                                         
-- Learned Binary Search algorithm 🌐                                                          
-- Understood time complexity basics for searching techniques 🧵                                                                           
-- Practice & Scenario-Based Assignments:Implemented Linear Search program, Implemented Binary Search program, Bookshelf Management System, Movie Scheduler System 📦                                             
+## Day 22: January 14, 2026 – Runtime Analysis & Big-O Notation 📅                                        
+**Topic:** Algorithm Analysis & Code Optimization ⏱️📊                                        
+**What I Learnt:** 📚                                                                             
+- Understood What is Runtime Analysis and why it is important in real-world applications 🧠                                            
+- Learned Big-O Notation and its role in measuring algorithm efficiency 📈                                        
+- Studied Time Complexity Analysis for different algorithms ⏳                                                   
+- Learned Space Complexity Analysis and memory usage considerations 💾                                                               
+- Understood Best Case, Worst Case, and Average Case complexities 🔍                                                                                       
+- Learned practical guidelines for optimizing C# code such as reducing loops, choosing efficient data structures, and avoiding redundant computations ⚙️                               
+- Practice & Scenario-Based Assignments: Analyzed runtime and space complexity of the Address Book System 🏠                                         
 
 ---
 
-## Day 22: January 14, 2026 – Runtime Analysis & Big-O Notation 📅
-**Topic:** Algorithm Analysis & Code Optimization ⏱️📊
-**What I Learnt:** 📚
-- Understood What is Runtime Analysis and why it is important in real-world applications 🧠
-- Learned Big-O Notation and its role in measuring algorithm efficiency 📈
-- Studied Time Complexity Analysis for different algorithms ⏳
-- Learned Space Complexity Analysis and memory usage considerations 💾
-- Understood Best Case, Worst Case, and Average Case complexities 🔍
-- Learned practical guidelines for optimizing C# code such as reducing loops, choosing efficient data structures, and avoiding redundant computations ⚙️
-- Practice & Scenario-Based Assignments: Analyzed runtime and space complexity of the Address Book System 🏠
-
----
-
-## Day 23: January 15, 2026 – Browser Buddy Runtime Analysis 📅
-**Topic:** Algorithm Runtime Analysis on Real-World Application 🌐
-**What I Learnt:** 📚
-- Applied runtime analysis concepts to a browser-based system 🧠
-- Compared different searching and sorting approaches used in applications 🔍
-- Understood how frequent user interactions affect performance ⚡
-- Practice & Scenario-Based Assignments: Browser Buddy Application, Evaluated bookmark lookup efficiency and studied browser history search optimization 💾
+## Day 23: January 15, 2026 – Browser Buddy Runtime Analysis 📅                                     
+**Topic:** Algorithm Runtime Analysis on Real-World Application 🌐                                            
+**What I Learnt:** 📚                                                    
+- Applied runtime analysis concepts to a browser-based system 🧠                                            
+- Compared different searching and sorting approaches used in applications 🔍                           
+- Understood how frequent user interactions affect performance ⚡                                                                                          
+- Practice & Scenario-Based Assignments: Browser Buddy Application, Evaluated bookmark lookup efficiency and studied browser history search optimization 💾                               
 
 --- 
 
-## Day 24: January 16, 2026 – Scenario-Based Systems & Analysis 📅
-**Topic:** Algorithm Application & Performance Comparison 🚦📚
-**What I Learnt:** 📚
-- Strengthened understanding of algorithm selection based on use case 🧩
-- Compared runtime efficiency of multiple algorithms 🧠
-- Applied searching and sorting concepts in different scenarios ⚙️
-- Practice & Scenario-Based Assignments: Traffic Manager System, Bookshelf Management System 📚
-- Solved daily scenario-based questions focusing on algorithm comparison and optimization 📊
+## Day 24: January 16, 2026 – Scenario-Based Systems & Analysis 📅                                                                
+**Topic:** Algorithm Application & Performance Comparison 🚦📚                                                         
+**What I Learnt:** 📚                                                               
+- Strengthened understanding of algorithm selection based on use case 🧩                                               
+- Compared runtime efficiency of multiple algorithms 🧠                                                
+- Applied searching and sorting concepts in different scenarios ⚙️                                                   
+- Practice & Scenario-Based Assignments: Traffic Manager System, Bookshelf Management System 📚                                            
+- Solved daily scenario-based questions focusing on algorithm comparison and optimization 📊                                                   
 
 --- 
 
- ## Day 25 — January 17, 2026 — Scenario-Based Applications & Algorithm Practice📅
-**Topic:** Flash Deals, Fitness Tracker & Algorithm Practice 💻📊
- **What I Learned:** 📚
-- Solved scenario-based problems using C# and OOPS concepts ✅
-- Practiced algorithms and sorting techniques 📊
-- Strengthened logical thinking and problem-solving skills🔍
-- Applied real-world scenarios to code design
-- Practice & Scenario-Based Assignments: Flash Deals System, Fitness Tracker Application 🏃
-- Solved daily scenario-based questions focusing on algorithm usage and optimization ⚙️
+ ## Day 25 — January 17, 2026 — Scenario-Based Applications & Algorithm Practice📅                                                      
+**Topic:** Flash Deals, Fitness Tracker & Algorithm Practice 💻📊                                                       
+ **What I Learned:** 📚                                                                  
+- Solved scenario-based problems using C# and OOPS concepts ✅                                                         
+- Practiced algorithms and sorting techniques 📊                                                    
+- Strengthened logical thinking and problem-solving skills🔍                                             
+- Applied real-world scenarios to code design 🔗                                             
+- Practice & Scenario-Based Assignments: Flash Deals System, Fitness Tracker Application 🏃                                               
+- Solved daily scenario-based questions focusing on algorithm usage and optimization ⚙️                                        
+ 
+---
+
+## Day 26 — January 19, 2026 — Generics & Scenario-Based Systems 📅                                          
+**Topic:** Generics in C#, Parcel Tracker & Exam Proctor 🧠📦                                         
+**What I Learned:** 📚                                        
+- Learned Generics in C# and their benefits 🏃                              
+- Implemented type-safe reusable classes and methods 💾                                      
+- Understood how generics improve scalability and performance 🧩                                      
+- Practice & Scenario-Based Assignments: Parcel Tracker System, Exam Proctor System ⚙️                           
+- Practiced daily scenario-based questions using generic programming concepts 🧠                                   
+ 
+---
+
+ ## Day 27 — January 20, 2026 — Collections, Sorting & Backtracking                                                          
+**Topic:** Collections, Radix Sort, Backtracking & Advanced Scenarios 🔁📚                                      
+**What I Learned:** 📚                                 
+- Learned Collections framework in C# 🏃                                         
+- Understood Radix Sort and its use for large numeric data 🔍                                         
+- Learned Backtracking technique and its applications ✅                                                    
+- Analyzed time and space complexity of recursive solutions ⚙️                                                                       
+-  Practice & Scenario-Based Assignments: Sorting Aadhar Numbers using Radix Sort, Password Cracker Simulator (Backtracking) 🧩                                        
 
 ---
 
-## Day 26 — January 19, 2026 — Generics & Scenario-Based Systems 📅
-**Topic:** Generics in C#, Parcel Tracker & Exam Proctor 🧠📦
-**What I Learned:** 📚
-- Learned Generics in C# and their benefits 🏃
-- Implemented type-safe reusable classes and methods 💾
-- Understood how generics improve scalability and performance 🧩
-- Practice & Scenario-Based Assignments: Parcel Tracker System, Exam Proctor System ⚙️
-- Practiced daily scenario-based questions using generic programming concepts 🧠
+## Day 28 — January 21, 2026 — Streams in C# & Scenario-Based Applications 🌊📊                                                          
+**Topic:** Streams, Merge Sort & Queue-Based Systems 🔍                                                  
+**What I Learned:** 🧩                                               
+- Learned Streams in C# for processing large datasets 🏃                                                    
+- Understood how streams help in efficient data flow and transformation ⚡                                                           
+- Revised Merge Sort for handling large, sorted datasets✅                                                                 
+- Applied Queue and HashMap together for real-time systems 🏗️                                                                                              
+- Practice & Scenario-Based Assignments: EduResults – Rank Sheet Generator (Merge Sort), SmartCheckout – Supermarket Billing Queue (Queue + HashMap) 💾                                  
 
 ---
 
- ## Day 27 — January 20, 2026 — Collections, Sorting & Backtracking
-**Topic:** Collections, Radix Sort, Backtracking & Advanced Scenarios 🔁📚
-**What I Learned:** 📚
-- Learned Collections framework in C# 🏃
-- Understood Radix Sort and its use for large numeric data 🔍
-- Learned Backtracking technique and its applications ✅
-- Analyzed time and space complexity of recursive solutions ⚙️
--  Practice & Scenario-Based Assignments: Sorting Aadhar Numbers using Radix Sort, Password Cracker Simulator (Backtracking) 🧩
+## Day 29 — January 22, 2026 — Exception Handling & Circular Linked List 📅                                             
+**Topic:** Exceptions, Circular Linked List & Emergency Systems 🚑🔁                                       
+**What I Learned:** 🧩                                                    
+- Learned Exception and Exception Handling in C# ⚙️                                                     
+- Understood try-catch-finally and custom exceptions ⏳                                                 
+- Studied Circular Linked List and its advantages ✔️❌                                         
+- Applied data structures to real-time emergency scenarios 📦                                                           
+- Practice & Scenario-Based Assignments: AmbulanceRoute – Emergency Patient Navigation (Circular Linked List) 🔍                                          
+
+--- 
+
+## Day 30 — January 23, 2026 — Regex, MSTesting & Reflection 📅                                                    
+**Topic:** Regular Expressions, MSTest, Annotations & Reflection 🔍🧪                                           
+**What I Learned:** 🧩                                                   
+- Learned Regular Expressions (Regex) for pattern matching ✅                                               
+- Practiced MSTesting for unit testing C# applications 💾                                                                    
+- Understood Annotations and Reflection in C# ⚡                                                                 
+- Learned how reflection enables runtime inspection 🏃                                                                                                                              
+- Practice & Learning Activities: Implemented regex for input validation, Wrote unit tests using MSTest, Explored reflection to analyze classes and methods dynamically. 🔗                                           
+---
+
+## Day 31 — January 24, 2026 — Code Quality & Static Analysis 📅                                                      
+**Topic:** Code Coverage & SonarQube 📈🧹                                                       
+**What I Learned:** 🧩                                                                    
+- Learned Code Coverage concepts in C# ✔️                                                                        
+- Analyzed test effectiveness using coverage reports ⚙️                                                                  
+- Implemented SonarQube for static code analysis ⚡                                                                                
+- Improved code quality using rule-based feedback ⏳                                                                      
+- Practice & Implementation: SonarQube Integration, Integrated SonarQube with Address Book Project. 🔗                                                               
 
 ---
 
-## Day 28 — January 21, 2026 — Advanced Sorting & Queue-Based Systems
-**Topic:** Merge Sort, Queue & HashMap Applications 🧮🛒
-**What I Learned:** 📚
-- Deep understanding of Merge Sort and its stability 🧠
-- Learned merging of multiple sorted sublists ✅
-- Used Queue and HashMap together for real-time systems 🔍
-- Practice & Scenario-Based Assignments: EduResults – Rank Sheet Generator (Merge Sort),  SmartCheckout – Supermarket Billing Queue (Queue + HashMap) 💾
+## Day 32 — January 27, 2026 — Annotations, Reflection & Metadata Systems 📅                                                         
+**Topic:** API Metadata Validation & Audit Systems 🏥📄                                                            
+**What I Learned:** 🧩                                                         
+- Advanced usage of Custom Annotations 📦                                                     
+- Used Reflection to scan classes and methods 🏗️                                                 
+- Generated metadata and structured outputs automatically ✅                                                                                                      
+- Practice & Scenario-Based Assignments: HealthCheckPro – API Metadata Validator, EventTracker – Auto Audit System (Annotations + Reflection + JSON). ✔️❌                                 
 
 ---
 
+## Day 33 — January 28, 2026 — Data Handling & Validation 📅                                                                                  
+**Topic:** CSV Data, Validation & Monitoring Systems📂✅                                                                      
+**What I Learned:** 🧩                                                   
+- Handled CSV data processing in C# ⏳                                                        
+- Implemented validation logic for financial systems 💾                                                 
+- Designed monitoring-based applications ⚙️                                        
+- Practice & Scenario-Based Assignments: Bank Account Validation System, AeroVigil – Monitoring & Validation Application ⚡                                
 
+--- 
+
+## Day 34 — January 29, 2026 — Streams, JSON & Advanced Scenarios 📅                                         
+**Topic:** Streams, JSON Handling & Scenario-Based Systems  🌐📦                                            
+**What I Learned:** 🧩                                          
+- Processed JSON data using C# ⚡                                          
+- Strengthened stream-based data handling 🏃                                                     
+- Solved advanced scenario-based problems 📦                                                                                                       
+- Practice & Scenario-Based Assignments: StreamBuzz(Stream-based content processing), OceanFleet(Fleet tracking using structured data) ✅                                          
+
+---
+
+## Day 35 — January 30, 2026 — Problem Solving & System Design 📅                                                                  
+**Topic:** String Manipulation & Logistics Systems 🧠🚚                                                      
+**What I Learned:** 🧩                                           
+- Solved string manipulation challenges💾                                         
+- Designed modular systems using OOPS and DSA ⏳                                          
+- Practice & Scenario-Based Assignments: Lexical Twist(String reversal, comparison, and transformation),  Future Logistics System(Designed logistics workflows). 🏃                                   
+
+ 
