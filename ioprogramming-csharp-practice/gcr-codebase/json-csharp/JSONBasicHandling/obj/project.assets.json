@@ -96,24 +96,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pmdhrs\\.nuget\\packages\\": {}
+    "C:\\Users\\khush\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\v\\BridgeLabz-Training\\io-programing-csharp-practice\\gcr-codebase\\json-data-handling\\JSONBasicHandling\\JSONBasicHandling.csproj",
+      "projectUniqueName": "D:\\BridgeLabz-Training\\ioprogramming-csharp-practice\\gcr-codebase\\json-csharp\\JSONBasicHandling\\JSONBasicHandling.csproj",
       "projectName": "JSONBasicHandling",
-      "projectPath": "C:\\v\\BridgeLabz-Training\\io-programing-csharp-practice\\gcr-codebase\\json-data-handling\\JSONBasicHandling\\JSONBasicHandling.csproj",
-      "packagesPath": "C:\\Users\\pmdhrs\\.nuget\\packages\\",
-      "outputPath": "C:\\v\\BridgeLabz-Training\\io-programing-csharp-practice\\gcr-codebase\\json-data-handling\\JSONBasicHandling\\obj\\",
+      "projectPath": "D:\\BridgeLabz-Training\\ioprogramming-csharp-practice\\gcr-codebase\\json-csharp\\JSONBasicHandling\\JSONBasicHandling.csproj",
+      "packagesPath": "C:\\Users\\khush\\.nuget\\packages\\",
+      "outputPath": "D:\\BridgeLabz-Training\\ioprogramming-csharp-practice\\gcr-codebase\\json-csharp\\JSONBasicHandling\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\pmdhrs\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\khush\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
