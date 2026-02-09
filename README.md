@@ -412,7 +412,7 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 39: February 3, 2026 — Design Principles & Patterns 📅                                              
+## Day 38: February 3, 2026 — Design Principles & Patterns 📅                                              
 **Topic:** SOLID Principles, Design Patterns & Logical Reasoning 🧠🏗️                                                    
 **What I Learnt:** 📚                                                                      
 - Learned SOLID design principles 📦                                     
@@ -423,7 +423,7 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 40: February 4, 2026 — RDBMS & SQL Server 📅                                        
+## Day 39: February 4, 2026 — RDBMS & SQL Server 📅                                        
 **Topic:** RDBMS Concepts & SQL Server 🗄️📊                                             
 **What I Learnt:** 📚                                      
 - Learned core RDBMS concepts ⏳                                
@@ -435,7 +435,7 @@ Each entry includes concepts covered and skills practiced.
 
 --- 
 
-## Day 41: February 5, 2026 — Project-Based Training & MSSQL 📅                                            
+## Day 40: February 5, 2026 — Project-Based Training & MSSQL 📅                                            
 **Topic:** Project-Based Learning & MSSQL Programming 🧩🚀                                            
 **What I Learnt:** 📚                                                    
 - Introduction to real-time project-based training ⏳                                                    
@@ -446,7 +446,7 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 42: February 6, 2026 — Healthcare DB Design & Professional Practices 📅                                                   
+## Day 41: February 6, 2026 — Healthcare DB Design & Professional Practices 📅                                                   
 **Topic:** Database Design & Professional Conduct 🏥📋                                                      
 **What I Learnt:** 📚                                             
 - Designed Healthcare Application Database Schema 🔍                                                 
