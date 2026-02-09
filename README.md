@@ -390,66 +390,66 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 36: January 31, 2026 — JSON Data Handling & Guidelines 📅
-**Topic:** JSON Data Handling, Assignment Submission Process 📄🔗
- **What I Learnt:** 📚
-- Learned how to read and write JSON data in C# 🏃
-- Understood proper JSON structure for application-level data exchange ✔️
-- Studied best practices for organizing JSON files 📦
-- Learned assignment submission rules and documentation standards 🔍
-- Practice & Assignments: Implemented JSON read/write operations, Created structured JSON files for assignments, Practiced validating JSON data formats 💾
+## Day 36: January 31, 2026 — JSON Data Handling & Guidelines 📅                        
+**Topic:** JSON Data Handling, Assignment Submission Process 📄🔗                          
+ **What I Learnt:** 📚                                          
+- Learned how to read and write JSON data in C# 🏃                                  
+- Understood proper JSON structure for application-level data exchange ✔️                                      
+- Studied best practices for organizing JSON files 📦                                                 
+- Learned assignment submission rules and documentation standards 🔍                                                                                           
+- Practice & Assignments: Implemented JSON read/write operations, Created structured JSON files for assignments, Practiced validating JSON data formats 💾                               
 
 ---
 
-## Day 37: February 2, 2026 — Multithreading, Delegates & Events 📅
-**Topic:** Multithreading, Delegates, Events & Stream API ⚙️🧵
-**What I Learnt:** 📚
-- Understood multithreading concepts in C# ⏳
-- Learned thread creation, execution, and lifecycle 🏗️
-- Implemented delegates and events for loosely coupled systems 🏃
-- Applied Stream API concepts in C# programs ⚡
-- Practice & Assignments: Multithreading practice programs, Delegate and event-based implementations, Stream-based data processing examples 📦
+## Day 37: February 2, 2026 — Multithreading, Delegates & Events 📅                                             
+**Topic:** Multithreading, Delegates, Events & Stream API ⚙️🧵                                           
+**What I Learnt:** 📚                                          
+- Understood multithreading concepts in C# ⏳                                     
+- Learned thread creation, execution, and lifecycle 🏗️                                  
+- Implemented delegates and events for loosely coupled systems 🏃                                           
+- Applied Stream API concepts in C# programs ⚡                                                                                                   
+- Practice & Assignments: Multithreading practice programs, Delegate and event-based implementations, Stream-based data processing examples 📦                                     
 
 ---
 
-## Day 39: February 3, 2026 — Design Principles & Patterns 📅
-**Topic:** SOLID Principles, Design Patterns & Logical Reasoning 🧠🏗️
-**What I Learnt:** 📚
-- Learned SOLID design principles 📦
-- Understood commonly used design patterns ⏳
-- Improved logical thinking through structured problem solving 🔍
-- Analyzed real-world system behavior using design rules ⚡
-- Practice & Assignments: Logical problem solving PDFs, Flip Key Problem, Factory Robot Hazard Analysis, Applied design principles conceptually to problem statements 🏗️
+## Day 39: February 3, 2026 — Design Principles & Patterns 📅                                              
+**Topic:** SOLID Principles, Design Patterns & Logical Reasoning 🧠🏗️                                                    
+**What I Learnt:** 📚                                                                      
+- Learned SOLID design principles 📦                                     
+- Understood commonly used design patterns ⏳                                                             
+- Improved logical thinking through structured problem solving 🔍                                                    
+- Analyzed real-world system behavior using design rules ⚡                                                                                                              
+- Practice & Assignments: Logical problem solving PDFs, Flip Key Problem, Factory Robot Hazard Analysis, Applied design principles conceptually to problem statements 🏗️                           
 
 ---
 
-## Day 40: February 4, 2026 — RDBMS & SQL Server 📅
-**Topic:** RDBMS Concepts & SQL Server 🗄️📊
-**What I Learnt:** 📚
-- Learned core RDBMS concepts ⏳
-- Understood database normalization ✔️
-- Practiced SQL Server commands:DDL (CREATE, ALTER, DROP), DML (INSERT, UPDATE, DELETE), DCL (GRANT, REVOKE) 🏃
-- Learned table relationships and constraints 📦
-- Practice & Assignments: Wrote SQL scripts, Created tables and relationships ⚡ 
-- Practiced queries for data manipulation and retrieval 🏗️
+## Day 40: February 4, 2026 — RDBMS & SQL Server 📅                                        
+**Topic:** RDBMS Concepts & SQL Server 🗄️📊                                             
+**What I Learnt:** 📚                                      
+- Learned core RDBMS concepts ⏳                                
+- Understood database normalization ✔️                                                                              
+- Practiced SQL Server commands:DDL (CREATE, ALTER, DROP), DML (INSERT, UPDATE, DELETE), DCL (GRANT, REVOKE) 🏃                              
+- Learned table relationships and constraints 📦                                             
+- Practice & Assignments: Wrote SQL scripts, Created tables and relationships ⚡                                      
+- Practiced queries for data manipulation and retrieval 🏗️                                                        
 
 --- 
 
-## Day 41: February 5, 2026 — Project-Based Training & MSSQL 📅
-**Topic:** Project-Based Learning & MSSQL Programming 🧩🚀
-**What I Learnt:** 📚
-- Introduction to real-time project-based training ⏳
-- Understood professional .NET project structure ✔️
-- Learned database schema design fundamentals 🔍
-- Studied MSSQL programming basics ⚡
-- Practice & Assignments: Reviewed project overview documents, Planned application structure and database design. 🏃
+## Day 41: February 5, 2026 — Project-Based Training & MSSQL 📅                                            
+**Topic:** Project-Based Learning & MSSQL Programming 🧩🚀                                            
+**What I Learnt:** 📚                                                    
+- Introduction to real-time project-based training ⏳                                                    
+- Understood professional .NET project structure ✔️                                                         
+- Learned database schema design fundamentals 🔍                                                                    
+- Studied MSSQL programming basics ⚡                                                                                  
+- Practice & Assignments: Reviewed project overview documents, Planned application structure and database design. 🏃                                                   
 
 ---
 
-## Day 42: February 6, 2026 — Healthcare DB Design & Professional Practices 📅
-**Topic:** Database Design & Professional Conduct 🏥📋
-**What I Learnt:** 📚
-- Designed Healthcare Application Database Schema 🔍
-- Created tables with keys, relationships, and constraints ⏳
-- Learned importance of attendance, punctuality, and discipline in professional environments 🏗️
-- Practice & Assignments: Healthcare database schema design, SQL query implementation for healthcare use cases ✔️
+## Day 42: February 6, 2026 — Healthcare DB Design & Professional Practices 📅                                                   
+**Topic:** Database Design & Professional Conduct 🏥📋                                                      
+**What I Learnt:** 📚                                             
+- Designed Healthcare Application Database Schema 🔍                                                 
+- Created tables with keys, relationships, and constraints ⏳                                             
+- Learned importance of attendance, punctuality, and discipline in professional environments 🏗️                                                  
+- Practice & Assignments: Healthcare database schema design, SQL query implementation for healthcare use cases ✔️                                      
