@@ -1,3 +1,9 @@
 # Ignore output files
 output.txt
 **/output.txt
+
+# Ignore build outputs (C# / .NET)
+bin/
+obj/
+**/bin/
+**/obj/
