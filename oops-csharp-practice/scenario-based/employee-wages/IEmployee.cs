@@ -4,15 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Training.employee_wages_managament
-{
-    internal interface IEmployee
-    {
-        Employee AddEmployee(Employee employee); //referring to UC-0 Functionality
-        void CheckAttendance();//referring to UC1-1 Functionality
-        int CalculateDailyWage(); //referring to UC2 ,3,4 Functionality
-        void CalculateMonthlyWage(Employee employee); // referring UC5 Functionality
+using System;
+
+namespace BridgeLabzTraining.employee_wage{
+    internal interface IEmployee{ // Interface for Employee operations
+        Employee AddEmployee(string name, int id, int salary);//UC-0
+         void CheckAttendance(Employee emp); // UC1
+         void CalculateDailyWage(Employee emp); // UC2
+         void CalculatePartTimeWageUC3(Employee emp); // UC3
+        void CalculateWageUsingSwitch(Employee emp); // UC-4
+        void CalculateMonthlyWage(Employee emp, int workingDays); // UC5
+        void CalculateWageTillCondition(Employee emp, int maxHours, int maxDays); // UC6
+
+
     }
 }
-
-
