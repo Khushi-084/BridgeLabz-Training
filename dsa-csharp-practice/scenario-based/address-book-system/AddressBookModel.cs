@@ -1,49 +1,26 @@
-// Model class demonstrating encapsulation
+using System;
+// encapsulation
 public class AddressBookModel{
-    private string firstName;
-    private string lastName;
-    private string address;
-    private string city;
-    private string state;
-    private string zip;
-    private string phoneNumber;
-    private string email;
-
-
-    public string FirstName { get { return firstName; } set { firstName = value; } }
-    public string LastName { get { return lastName; } set { lastName = value; } }
-    public string Address { get { return address; } set { address = value; } }
-    public string City { get { return city; } set { city = value; } }
-    public string State { get { return state; } set { state = value; } }
-    public string Zip { get { return zip; } set { zip = value; } }
-    public string PhoneNumber { get { return phoneNumber; } set { phoneNumber = value; } }
-    public string Email { get { return email; } set { email = value; } }
-    
-    //UC-0 WELCOME MESSAGE
-    // Private variable
-
-    private string welcomeMessage;
-
-
-    // Public property to access private variable
-    public string WelcomeMessage{
-        get { return welcomeMessage; }
-        set { welcomeMessage = value; }
-    }
-
-    // UC-1 ADD CONTACT
+    public string FirstName;
+    public string LastName;
+    public string Address;
+    public string City;
+    public string State;
+    public string Zip;
+    public string PhoneNumber;
+    public string Email;
+    // UC-0 Welcome Message variable
+    public string WelcomeMessage;
+    // Used to check duplicate contacts (UC-2)
     public override bool Equals(object obj){
-    if (obj == null || !(obj is AddressBookModel)){
-        return false;
+        AddressBookModel other = obj as AddressBookModel;
+        if (other == null){
+            return false;
+        }
+        return FirstName.Equals(other.FirstName, StringComparison.OrdinalIgnoreCase) &&
+               LastName.Equals(other.LastName, StringComparison.OrdinalIgnoreCase);
     }
-
-    // Cast object to AddressBookModel
-    AddressBookModel other = (AddressBookModel)obj;
-    return this.FirstName.Equals(other.FirstName, StringComparison.OrdinalIgnoreCase) && this.LastName.Equals(other.LastName, StringComparison.OrdinalIgnoreCase);
-    }
-
-    // UC-2 EDIT CONTACT
     public override string ToString(){
-    return FirstName + " " + LastName + ", " + City + ", " + State + ", " + PhoneNumber;
+        return FirstName + " " + LastName + ", " + City + ", " + State + ", " + PhoneNumber;
     }
 }

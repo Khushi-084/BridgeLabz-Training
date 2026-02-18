@@ -1,10 +1,7 @@
-// Interface for Address Book operations
 public interface IAddressBook{
-    // Method to display message
-
-    void DisplayWelcomeMessage();                         //UC-0 DISPLAY WELCOME MESSAGE
-    void AddContact();                                   //UC-1+ UC-2 ADD CONTACTS IN ADDRESS BOOK
-    void EditContact();                                 // UC-3 EDIT EXISTING CONTACT USING NAME
-    void DeleteContact();                              // UC-4 DELETE CONTACT USING NAME
-    void AddMultipleContacts();                       // UC-5 ADD MANY CONTACT ONE BY ONE
+    void DisplayWelcomeMessage(); // UC-0
+    void AddContact();            // UC-1 + UC-2
+    void EditContact();           // UC-3
+    void DeleteContact();         // UC-4
+    void AddMultipleContacts();   // UC-5
 }

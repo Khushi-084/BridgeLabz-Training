@@ -1,10 +1,9 @@
 using System;
 class AddressBookMain{
     static void Main(string[] args){
-        // Creating AddressBookUtility object
         AddressBookUtility utility = new AddressBookUtility();
         utility.DisplayWelcomeMessage();
-        int choice = 0;
+        int choice;
         do{
             Console.WriteLine("\n---- MENU ----");
             Console.WriteLine("1. Create Address Book");
@@ -21,61 +20,38 @@ class AddressBookMain{
             Console.WriteLine("12. Count Person By State");
             Console.WriteLine("13. Sort Contacts by Name");
             Console.WriteLine("14. Exit");
-            Console.Write("Enter your choice: ");
+            Console.Write("Enter choice: ");
             choice = Convert.ToInt32(Console.ReadLine());
             switch (choice){
                 case 1:
-                    AddressBookUtility.CreateAddressBook();                  //UC-6
+                    AddressBookUtility.CreateAddressBook();
                     break;
                 case 2:
-                    utility = AddressBookUtility.SelectAddressBook();        //UC-6
+                    utility = AddressBookUtility.SelectAddressBook();
                     break;
                 case 3:
-                    utility.AddContact();                                   // UC-1+UC-2
+                    utility.AddContact();
                     break;
                 case 4:
-                    utility.AddMultipleContacts();                            // UC-5
+                    utility.AddMultipleContacts();
                     break;
                 case 5:
-                    utility.EditContact();                                 // UC-3
+                    utility.EditContact();
                     break;
                 case 6:
-                    utility.DeleteContact();                              // UC-4
-                    break;
-                case 7:
-                    AddressBookUtility.SearchPersonByCity();                //UC-8
-                    break;
-                case 8:
-                    AddressBookUtility.SearchPersonByState();                 //UC-8
-                    break;
-                case 9:
-                    AddressBookUtility.ViewPersonsByCity();                  //UC-9
-                    break;
-                case 10:
-                    AddressBookUtility.ViewPersonsByState();                  //UC-9
-                    break;
-                case 11:
-                    AddressBookUtility.CountPersonsByCity();                    //UC-10
-                    break;
-                case 12:
-                    AddressBookUtility.CountPersonsByState();                    //UC-10
+                    utility.DeleteContact();
                     break;
                 case 13:
-                    if (utility != null){
-                        utility.SortContactsByName();                            //UC-11
-                    }else{
-                        Console.WriteLine("Select Address Book First!");
-                    }
+                    utility.SortContactsByName();
                     break;
                 case 14:
                     Console.WriteLine("Exiting Program.");
                     break;
                 default:
-                    Console.WriteLine("Invalid Choice Try Again.");
+                    Console.WriteLine("Inavlid choice.Try again Later");
                     break;
             }
 
         } while (choice != 14);
-        Console.ReadLine();
     }
 }
