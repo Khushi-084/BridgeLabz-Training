@@ -1,6 +1,5 @@
 // Model class demonstrating encapsulation
 public class AddressBookModel{
-    // Private variables
     private string firstName;
     private string lastName;
     private string address;
@@ -10,7 +9,6 @@ public class AddressBookModel{
     private string phoneNumber;
     private string email;
 
-    // Public properties to access private variables
     public string FirstName { get { return firstName; } set { firstName = value; } }
     public string LastName { get { return lastName; } set { lastName = value; } }
     public string Address { get { return address; } set { address = value; } }
@@ -27,5 +25,15 @@ public class AddressBookModel{
     public string WelcomeMessage{
         get { return welcomeMessage; }
         set { welcomeMessage = value; }
+    }
+    public override bool Equals(object obj){
+    if (obj == null || !(obj is AddressBookModel)){
+        return false;
+    }
+    AddressBookModel other = (AddressBookModel)obj;
+    return this.FirstName.Equals(other.FirstName, StringComparison.OrdinalIgnoreCase) && this.LastName.Equals(other.LastName, StringComparison.OrdinalIgnoreCase);
+    }
+    public override string ToString(){
+    return FirstName + " " + LastName + ", " + City + ", " + State + ", " + PhoneNumber;
     }
 }
