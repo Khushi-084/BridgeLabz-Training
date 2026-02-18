@@ -1,10 +1,12 @@
 using System;
 class CitizenRegistration{
     static void Main(){
+
         // Module 1: Basic Concepts
         Console.WriteLine("Welcome to TechVille Citizen Registration Portal");
         Console.Write("Enter number of family members to register: ");
         int familyCount = Convert.ToInt32(Console.ReadLine());
+
         // Module 2: Loops & Logic
         for (int i = 1; i <= familyCount; i++){
             Console.WriteLine($"\nRegistering Family Member #{i}");
@@ -22,11 +24,13 @@ class CitizenRegistration{
             income = Convert.ToDouble(Console.ReadLine());
             Console.Write("Enter Years of Residency: ");
             residencyYears = Convert.ToInt32(Console.ReadLine());
+
             // Module 2: Validation using continue
             if (age <= 0 || income < 0 || residencyYears < 0){
                 Console.WriteLine("Invalid input. Skipping.");
                 continue;
             }
+
             // Module 1 & 2: Eligibility calculation
             int eligibilityScore = 0;
 
@@ -66,6 +70,7 @@ class CitizenRegistration{
             }else{
                 category = 0;
             }
+
             // normal switch-case
             string servicePackage;
             switch (category){
@@ -82,12 +87,14 @@ class CitizenRegistration{
                 servicePackage = "Basic";
                 break;
             }
+
             // Module 1: Output
             Console.WriteLine("\nCitizen Information Summary");
             Console.WriteLine($"Name: {name}");
             Console.WriteLine($"Eligibility Score: {eligibilityScore}");
             Console.WriteLine($"Status: {status}");
             Console.WriteLine($"Service Package: {servicePackage}");
+            
             // Module 2: Break example
             Console.Write("\nDo you want to stop? (yes/no): ");
             string choice = Console.ReadLine().ToLower();
