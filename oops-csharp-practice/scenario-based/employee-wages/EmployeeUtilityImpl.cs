@@ -14,6 +14,7 @@ namespace BridgeLabzTraining.employee_wage{
       EmployeeName = name, EmployeeId = id, EmployeeSalary = salary 
       };
   }
+
   //UC-1 CHECK ATTENDANCE
   public void CheckAttendance(Employee emp){
     Random random = new Random();
@@ -23,16 +24,19 @@ namespace BridgeLabzTraining.employee_wage{
     else
       Console.WriteLine($"{emp.EmployeeName} is Absent");
   }
+
   //UC2-CALCULATE DAILY WAGE
   public void CalculateDailyWage(Employee emp){
     int wage = WAGE_PER_HOUR * FULL_TIME_HOURS;
     Console.WriteLine($"UC-2 Full-Time Wage: {wage}");
   }
+
   //UC-3 PART TIME WAGE
   public void CalculatePartTimeWageUC3(Employee emp){
         int wage = WAGE_PER_HOUR * PART_TIME_HOURS;
         Console.WriteLine($"UC-3 Part-Time Wage: {wage}");
     }
+
     //UC4 - CALCULATE USING SWITCH CASE
     public void CalculateWageUsingSwitch(Employee emp){
       Random random = new Random();
@@ -55,6 +59,7 @@ namespace BridgeLabzTraining.employee_wage{
       int dailyWage = workingHours * WAGE_PER_HOUR;
       Console.WriteLine($"Daily Wage: {dailyWage}");
     }
+
     //UC-5 CALCULATE MONTHLY WAGE
     public void CalculateMonthlyWage(Employee emp, int workingDays){
     Random random = new Random();
@@ -78,6 +83,7 @@ namespace BridgeLabzTraining.employee_wage{
     }
     Console.WriteLine($"\nUC5: Total Monthly Wage of {emp.EmployeeName} for {workingDays} working days is: {totalWage}");
     }
+    
     //UC-6 CALCULATE WAGE TILL CONDITION
     public void CalculateWageTillCondition(Employee emp, int maxHours, int maxDays){
     Random random = new Random();

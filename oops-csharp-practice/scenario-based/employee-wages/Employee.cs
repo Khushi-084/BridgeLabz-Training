@@ -22,7 +22,8 @@ namespace BridgeLabzTraining.employee_wage{
     get => employeeSalary;
     set => employeeSalary = value;
   }
-  public override string ToString(){// Override ToString method to display employee info
+  public override string ToString()
+  {  // Override ToString method to display employee info
     return $"Employee Id: {EmployeeId}, Name: {EmployeeName}, Salary: {EmployeeSalary}";
   }
 }
