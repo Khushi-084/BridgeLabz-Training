@@ -384,223 +384,214 @@ Each entry includes concepts covered and skills practiced.
 
 ---
 
-## Day 32 — January 27, 2026 — Annotations, Reflection & Metadata Systems 📅
-**Topic:** API Metadata Validation & Audit Systems 🏥📄  
-**What I Learned:** 🧩
-
-- Advanced usage of Custom Annotations 📦
-- Used Reflection to scan classes and methods 🏗️
-- Generated metadata and structured outputs automatically ✅
-- Practice & Scenario-Based Assignments: HealthCheckPro – API Metadata Validator, EventTracker – Auto Audit System (Annotations + Reflection + JSON). ✔️❌
-
----
-
-## Day 33 — January 28, 2026 — Data Handling & Validation 📅
-**Topic:** CSV Data, Validation & Monitoring Systems📂✅  
-**What I Learned:** 🧩
-
-- Handled CSV data processing in C# ⏳
-- Implemented validation logic for financial systems 💾
-- Designed monitoring-based applications ⚙️
-- Practice & Scenario-Based Assignments: Bank Account Validation System, AeroVigil – Monitoring & Validation Application ⚡
-
----
-
-## Day 34 — January 29, 2026 — Streams, JSON & Advanced Scenarios 📅
-**Topic:** Streams, JSON Handling & Scenario-Based Systems 🌐📦  
-**What I Learned:** 🧩
-
-- Processed JSON data using C# ⚡
-- Strengthened stream-based data handling 🏃
-- Solved advanced scenario-based problems 📦
-- Practice & Scenario-Based Assignments: StreamBuzz(Stream-based content processing), OceanFleet(Fleet tracking using structured data) ✅
-
----
-
-## Day 35 — January 30, 2026 — Problem Solving & System Design 📅
-
-**Topic:** String Manipulation & Logistics Systems 🧠🚚  
-**What I Learned:** 🧩
-
-- Solved string manipulation challenges💾
-- Designed modular systems using OOPS and DSA ⏳
-- Practice & Scenario-Based Assignments: Lexical Twist(String reversal, comparison, and transformation), Future Logistics System(Designed logistics workflows). 🏃
-
----
-
-## Day 36: January 31, 2026 — JSON Data Handling & Guidelines 📅
-**Topic:** JSON Data Handling, Assignment Submission Process 📄🔗  
- **What I Learnt:** 📚
-
-- Learned how to read and write JSON data in C# 🏃
-- Understood proper JSON structure for application-level data exchange ✔️
-- Studied best practices for organizing JSON files 📦
-- Learned assignment submission rules and documentation standards 🔍
-- Practice & Assignments: Implemented JSON read/write operations, Created structured JSON files for assignments, Practiced validating JSON data formats 💾
-
----
-
-## Day 37: February 2, 2026 — Multithreading, Delegates & Events 📅
-**Topic:** Multithreading, Delegates, Events & Stream API ⚙️🧵  
-**What I Learnt:** 📚
-
-- Understood multithreading concepts in C# ⏳
-- Learned thread creation, execution, and lifecycle 🏗️
-- Implemented delegates and events for loosely coupled systems 🏃
-- Applied Stream API concepts in C# programs ⚡
-- Practice & Assignments: Multithreading practice programs, Delegate and event-based implementations, Stream-based data processing examples 📦
-
----
-
-## Day 38: February 3, 2026 — Design Principles & Patterns 📅
-**Topic:** SOLID Principles, Design Patterns & Logical Reasoning 🧠🏗️  
-**What I Learnt:** 📚
-
-- Learned SOLID design principles 📦
-- Understood commonly used design patterns ⏳
-- Improved logical thinking through structured problem solving 🔍
-- Analyzed real-world system behavior using design rules ⚡
-- Practice & Assignments: Logical problem solving PDFs, Flip Key Problem, Factory Robot Hazard Analysis, Applied design principles conceptually to problem statements 🏗️
-
----
-
-## Day 39: February 4, 2026 — RDBMS & SQL Server 📅
-**Topic:** RDBMS Concepts & SQL Server 🗄️📊  
-**What I Learnt:** 📚
-
-- Learned core RDBMS concepts ⏳
-- Understood database normalization ✔️
-- Practiced SQL Server commands:DDL (CREATE, ALTER, DROP), DML (INSERT, UPDATE, DELETE), DCL (GRANT, REVOKE) 🏃
-- Learned table relationships and constraints 📦
-- Practice & Assignments: Wrote SQL scripts, Created tables and relationships ⚡
-- Practiced queries for data manipulation and retrieval 🏗️
-
----
-
-## Day 40: February 5, 2026 — Project-Based Training & MSSQL 📅
-**Topic:** Project-Based Learning & MSSQL Programming 🧩🚀  
-**What I Learnt:** 📚
-
-- Introduction to real-time project-based training ⏳
-- Understood professional .NET project structure ✔️
-- Learned database schema design fundamentals 🔍
-- Studied MSSQL programming basics ⚡
-- Practice & Assignments: Reviewed project overview documents, Planned application structure and database design. 🏃
-
----
-
-## Day 41: February 6, 2026 — Healthcare DB Design & Professional Practices 📅
-**Topic:** Database Design & Professional Conduct 🏥📋  
-**What I Learnt:** 📚
-
-- Designed Healthcare Application Database Schema 🔍
-- Created tables with keys, relationships, and constraints ⏳
-- Learned importance of attendance, punctuality, and discipline in professional environments 🏗️
-- Practice & Assignments: Healthcare database schema design, SQL query implementation for healthcare use cases ✔️
-
----
-
-## Day 42 — February 7, 2026 — Healthcare DB Design 📅
+ ## Day 32 — January 27, 2026 — Annotations, Reflection & Metadata Systems 📅
+**Topic:** API Metadata Validation & Audit Systems 🏥📄
 **What I Learned:** 📚
 
-- Practiced writing structured DBMS command query files 🗂️
-- Designed and refined Healthcare Application database schema 🏥
-- Created and tested associated SQL files for data integrity 📄
-- Implemented constraints, primary keys, and foreign keys 🔗
-- Improved database structuring skills for real-world systems ⚙️
+- Implemented custom annotations (attributes) in C# 🏷️
+- Used Reflection to scan controller classes and methods dynamically 🔍
+- Auto-generated API documentation using metadata scanning 📄
+- Understood runtime inspection and attribute-based validation ⚙️
+- Practiced structured JSON log generation 🧾
+- Practice & Scenario-Based Assignments:HealthCheckPro – API Metadata Validator, EventTracker – Auto Audit System (Annotations + Reflection + JSON)
+- Implemented MSTest for validation testing 🧪
 
 ---
 
-## Day 43 — February 9, 2026 — Healthcare DB Updates 📅
- **What I Learned:** 📚
-
-- Continued development of Healthcare application database 🏥
-- Updated existing tables and optimized schema structure 🔄
-- Refactored SQL queries for better performance ⚡
-- Validated data consistency across relationships 🔍
-- Improved debugging skills for SQL-based projects 🛠️
-
----
-
-## Day 44 — February 10, 2026 — Mock Test & Practice 📅
+## Day 33 — January 28, 2026 — CSV Handling & Validation Systems 📅
+**Topic:** CSV Data Handling & Validation 🗂️
 **What I Learned:** 📚
 
-- Attempted mock test based on previously covered concepts 📝
-- Practiced Streams and I/O programming in C# 📂
-- Implemented Regex-based validation logic 🔎
-- Revised Collections framework concepts 🧩
-- Strengthened testing knowledge through hands-on practice 🧪
+- Processed CSV files using file handling in C# 📂
+- Implemented structured data parsing logic 🔄
+- Applied validation rules in financial applications 🏦
+- Designed modular validation layers for secure systems 🔐
+- Practice & Scenario-Based Assignments:AeroVigil – Monitoring & Validation System, Bank Application Validation Module
 
 ---
 
-## Day 45 — February 11, 2026 — DBMS Assignment 📅
+## Day 34 — January 29, 2026 — StreamBuzz & OceanFleet 📅
+**Topic:** Streams & Scenario-Based Systems 🌊
 **What I Learned:** 📚
 
-- Learned essential SQL and RDBMS core concepts 🗄️
-- Practiced database design principles and normalization (1NF, 2NF, 3NF) 📊
-- Understood keys: Primary Key, Foreign Key, Candidate Key, Composite Key 🔑
-- Implemented joins (INNER, LEFT, RIGHT), subqueries, and nested queries 🔄
-- Learned transactions (ACID properties) and rollback mechanisms 🔁
-- Studied indexing techniques and performance tuning ⚡
-- Explored database security practices and access control 🔐
-- Understood industry standards used in real-world database systems 🏢
+- Applied stream-based data processing concepts ⚡
+- Implemented structured JSON-based workflows 📦
+- Designed scalable data-processing pipelines 🏗️
+- Strengthened real-world scenario problem-solving 🧠
+- Practice & Scenario-Based Assignments:StreamBuzz, OceanFleet – Fleet Tracking Scenario
 
----
+--- 
 
-## Day 46 — February 12, 2026 — NotifyHub & Email Validator 📅
+## Day 35 — January 30, 2026 — Logical Systems & Design 📅
+**Topic:** String Manipulation & Logistics Systems 🧠🚚
 **What I Learned:** 📚
 
-- Practiced scenario-based system: **NotifyHub – Concurrent Notification Processing System** 📩
-- Applied multithreading for concurrent task execution 🧵
-- Implemented async programming for non-blocking operations ⚡
-- Used Collections and OOPS (Basic & Advanced) for scalable design 🏗️
-- Implemented custom Annotations with Reflection 🏷️
-- Integrated I/O file handling for persistent logging 📂
-- Built Email Validator – College Admission Portal using Regex 🔎
-- Validated user input patterns using regular expressions 🛡️
+- Solved advanced string-based logical problems ✍️
+- Designed workflow-driven logistics systems 🔄
+- Applied modular OOP-based architecture 🏗️
+- Practice & Scenario-Based Assignments:Lexical Twist, Future Logistics System
 
----
+--- 
 
-## Day 47 — February 14, 2026 — Advanced Multithreading Practice 📅
+## Day 36 — January 31, 2026 — JSON Data Handling 📅
+**Topic:** JSON Processing in C# 📦
 **What I Learned:** 📚
 
-- Practiced advanced multithreading concepts 🧵
-- Implemented async/await for efficient task scheduling ⚡
-- Applied Collections in concurrent environments 📦
-- Used Annotations and Reflection for validation systems 🏷️
-- Integrated Regex for structured input validation 🔎
-- Strengthened understanding of thread lifecycle and synchronization 🔐
-- Combined OOP principles with concurrency models 🏗️
+- Read and wrote JSON data using C# libraries 🔄
+- Structured JSON models for application-level integration 📄
+- Implemented validation and formatting checks ✔️
+- Strengthened serialization & deserialization concepts ⚙️
 
----
+ ---
 
-## Day 48 — February 16, 2026 — Bank Transaction Processing System 📅
-**Scenario: Bank Transaction Processing System 🏦**
-A high-performance banking system that processes thousands of transactions per minute.
-
-**What I Implemented:**🛠️
-
-- Designed SQL tables:
-  - Accounts(AccountId, HolderName, Balance)
-  - Transactions(TransactionId, AccountId, Amount, Type, CreatedDate) 🗄️
-- Implemented transaction insertion and account balance updates 💰
-- Ensured atomicity using SQL transactions (BEGIN, COMMIT, ROLLBACK) 🔄
-- Simulated 50 parallel withdrawals on the same account 🧵
-- Prevented race conditions using synchronization techniques 🔐
-- Wrote test cases for validation of different Parameters. 🔎
-- Strengthened understanding of ACID properties in real-world systems 🧠
-
----
-
-## Day 49 — February 17, 2026 — Healthcare Project & Scenario Practice 📅
+## Day 37 — February 2, 2026 — Design Principles & Logical Thinking 📅
+**Topic:** SOLID Principles & Design Patterns 🏗️
 **What I Learned:** 📚
 
-- Continued working on the Healthcare Application Project 🏥
-- Refined database queries and improved schema design 🔄
-- Optimized SQL operations for better performance ⚡
-- Practiced scenario-based problem solving related to healthcare systems 🧠
-- Applied OOPS, Collections, and SQL concepts together in real-world cases 🏗️
-- Strengthened debugging and logical reasoning skills through implementation 🔍
+- Applied SOLID principles in structured applications 🧠
+Studied common design patterns conceptually 📐
+Improved logical reasoning through scenario problems 🔍
+Analyzed Flip Key problem and solution strategy 🗝️
+
+--- 
+## Day 38 — February 3, 2026 — Multithreading & Factory Robot Scenario 📅
+**Topic:** Concurrency & Hazard Analysis 🤖
+**What I Learned:** 📚
+
+- Implemented multithreading concepts in C# 🧵
+- Understood race conditions & synchronization 🔐
+- Applied concurrency handling in real-world scenario 🏭
+- Solved Factory Robot Hazardous Scenario safely ⚠️
 
 ---
 
+## Day 39 — February 4, 2026 — RDBMS & SQL Commands 📅
+**Topic:** SQL Server – DDL & DML 🗄️
+**What I Learned:** 📚
+
+- Practiced DDL commands (CREATE, ALTER, DROP) 📄 
+- Practiced DML commands (INSERT, UPDATE, DELETE) 🔄
+- Strengthened understanding of relational modeling 📊
+- Applied normalization principles 🧠
+
+---
+
+## Day 40 — February 5, 2026 — MSSQL & Project-Based Training (Tech Ville) 📅
+**Topic:** MSSQL Programming & Real-Time Projects 🚀
+**What I Learned:** 📚
+
+- Understood professional project structure 🏗️ 
+- Practiced MSSQL stored queries and database design 📂
+- Began Tech Ville project-based training 📋
+- Applied DB schema planning for scalable applications ⚙️
+
+---
+
+## Day 41 — February 6, 2026 — Healthcare Database Project 📅
+**Topic:** Healthcare Application Database Design 🏥
+**What I Learned:** 📚
+
+- Designed tables, keys, and relationships 📊
+- Implemented constraints for data integrity 🔐
+- Practiced joins, indexing, and transactions 🔄
+- Strengthened real-time project database skills 🧠
+- Goal:Treat project as industry-level application and prepare for technical reviews 🎯
+
+---
+
+## Day 42 — February 7, 2026 — Submission & DB Implementation 📅
+***What I Learned**: 📚
+
+- Prepared DBMS command query files 📄
+- Completed Healthcare application modules 🏥
+- Submitted associated SQL files 📂
+- Refined query optimization and data validation 🔍
+
+---
+
+## Day 43 — February 10, 2026 — Mock Practice Systems 📅
+**What I Learned:** 📚
+
+- Solved City Management System scenario 🏙️
+- Designed Application Activity Archival System 📁
+- Built Corporate Training & Evaluation Platform 🏢
+- Strengthened system design and DB integration 🧠
+
+---
+
+## Day 44 — February 11–12, 2026 — NotifyHub System 📅
+**Topic:** Concurrent Notification Processing System 📩
+**What I Learned:** 📚
+
+- Designed concurrent notification processor 🧵
+- Implemented async/await and Task-based execution ⚡
+- Applied Collections & priority-based processing 📊
+- Used custom attributes for validation 🏷️
+- Implemented safe failure handling and status updates 🔄
+- Ensured thread safety & synchronization 🔐
+
+---
+
+## Day 45 — February 13, 2026 — Email Validator (Regex + Annotations) 📅
+**Topic:** Regex, Validation & File Handling 📧
+**What I Learned:** 📚
+
+- Implemented Regex-based email validation 🔎
+- Applied pattern matching and structured validation 📄
+- Integrated multithreading & file logging 🧵
+- Used annotations with validation rules 🏷️
+- Practiced exception handling & modular design ⚙️
+
+ ---
+ 
+## Day 46 — February 16, 2026 — Bank Transaction Processing System 📅
+**What I Learned:** 📚
+
+- Designed SQL tables for Accounts & Transactions 🗄️
+- Implemented SQL transactions (BEGIN, COMMIT, ROLLBACK) 🔄
+- Simulated 50 parallel withdrawals 🧵
+- Prevented race conditions using synchronization 🔐
+- Implemented in-memory caching using Dictionary ⚡
+- Practiced ADO.NET architecture & connection pooling 🧠
+- Revised ACID properties & isolation levels 📊
+
+---
+
+## Day 47 — February 17, 2026 — ASP.NET Core Basics 📅
+**Topic:** Web Application Introduction 🌐
+**What I Learned:** 📚
+
+- Introduction to ASP.NET Core framework 🏗️
+- Built Quantity Measurement Application (basic version) 📏
+- Understood MVC flow and routing ⚙️
+
+---
+
+## Day 48 — February 18, 2026 — Mock Test M1 📅
+**What I Learned:** 📚
+
+- Attempted comprehensive mock test 📝
+- Revised ADO.NET, SQL, Multithreading & Collections 🔄
+- Strengthened debugging & reasoning skills 🧠
+
+---
+
+## Day 49 — February 19, 2026 — Web API & Entity Framework 📅
+**What I Learned:** 📚
+
+- Built RESTful APIs using ASP.NET Core 🌐
+- Learned ORM concept using Entity Framework ⚙️
+- Implemented CRUD operations with EF Core 🗄️
+- Understood migration and DbContext flow 📦
+
+---
+
+## Day 50 — February 20, 2026 — Quantity Measurement App (UC-1 to UC-4) 📅
+**What I Learned:** 📚
+
+- UC-1: 1 Feet Measurement Validation 📏
+- UC-2: Feet & Inches Conversion Logic 🔄
+- UC-3: Generic Quantity Class (DRY Principle) 🧠
+- UC-4: Extended Unit Support (Inch, Feet, Yard etc.) 📐
+- Applied OOP, Generics, and API-based structure 🏗️
+- Strengthened clean architecture principles ⚙️
