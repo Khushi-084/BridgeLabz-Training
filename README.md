@@ -427,26 +427,26 @@ Each entry includes concepts covered and skills practiced.
 **What I Learned:** 📚
 
 - Solved advanced string-based logical problems ✍️
-- Designed workflow-driven logistics systems 🔄
-- Applied modular OOP-based architecture 🏗️
-- Practice & Scenario-Based Assignments:Lexical Twist, Future Logistics System
+- Designed workflow-driven logistics systems 🔄                      
+- Applied modular OOP-based architecture 🏗️                                          
+- Practice & Scenario-Based Assignments:Lexical Twist, Future Logistics System                                 
 
 --- 
 
-## Day 36 — January 31, 2026 — JSON Data Handling 📅
-**Topic:** JSON Processing in C# 📦
-**What I Learned:** 📚
+## Day 36 — January 31, 2026 — JSON Data Handling 📅                                      
+**Topic:** JSON Processing in C# 📦                                                       
+**What I Learned:** 📚                                                      
 
-- Read and wrote JSON data using C# libraries 🔄
-- Structured JSON models for application-level integration 📄
-- Implemented validation and formatting checks ✔️
-- Strengthened serialization & deserialization concepts ⚙️
+- Read and wrote JSON data using C# libraries 🔄                             
+- Structured JSON models for application-level integration 📄                        
+- Implemented validation and formatting checks ✔️                            
+- Strengthened serialization & deserialization concepts ⚙️                               
 
  ---
 
-## Day 37 — February 2, 2026 — Design Principles & Logical Thinking 📅
-**Topic:** SOLID Principles & Design Patterns 🏗️
-**What I Learned:** 📚
+## Day 37 — February 2, 2026 — Design Principles & Logical Thinking 📅                   
+**Topic:** SOLID Principles & Design Patterns 🏗️                              
+**What I Learned:** 📚                                     
 
 - Applied SOLID principles in structured applications 🧠
 Studied common design patterns conceptually 📐
@@ -454,9 +454,9 @@ Improved logical reasoning through scenario problems 🔍
 Analyzed Flip Key problem and solution strategy 🗝️
 
 --- 
-## Day 38 — February 3, 2026 — Multithreading & Factory Robot Scenario 📅
-**Topic:** Concurrency & Hazard Analysis 🤖
-**What I Learned:** 📚
+## Day 38 — February 3, 2026 — Multithreading & Factory Robot Scenario 📅                      
+**Topic:** Concurrency & Hazard Analysis 🤖                                   
+**What I Learned:** 📚                                             
 
 - Implemented multithreading concepts in C# 🧵
 - Understood race conditions & synchronization 🔐
@@ -465,9 +465,9 @@ Analyzed Flip Key problem and solution strategy 🗝️
 
 ---
 
-## Day 39 — February 4, 2026 — RDBMS & SQL Commands 📅
-**Topic:** SQL Server – DDL & DML 🗄️
-**What I Learned:** 📚
+## Day 39 — February 4, 2026 — RDBMS & SQL Commands 📅                         
+**Topic:** SQL Server – DDL & DML 🗄️                                  
+**What I Learned:** 📚                                                        
 
 - Practiced DDL commands (CREATE, ALTER, DROP) 📄 
 - Practiced DML commands (INSERT, UPDATE, DELETE) 🔄
@@ -476,9 +476,9 @@ Analyzed Flip Key problem and solution strategy 🗝️
 
 ---
 
-## Day 40 — February 5, 2026 — MSSQL & Project-Based Training (Tech Ville) 📅
-**Topic:** MSSQL Programming & Real-Time Projects 🚀
-**What I Learned:** 📚
+## Day 40 — February 5, 2026 — MSSQL & Project-Based Training (Tech Ville) 📅                   
+**Topic:** MSSQL Programming & Real-Time Projects 🚀                                 
+**What I Learned:** 📚                                         
 
 - Understood professional project structure 🏗️ 
 - Practiced MSSQL stored queries and database design 📂
@@ -487,9 +487,9 @@ Analyzed Flip Key problem and solution strategy 🗝️
 
 ---
 
-## Day 41 — February 6, 2026 — Healthcare Database Project 📅
-**Topic:** Healthcare Application Database Design 🏥
-**What I Learned:** 📚
+## Day 41 — February 6, 2026 — Healthcare Database Project 📅                        
+**Topic:** Healthcare Application Database Design 🏥                                   
+**What I Learned:** 📚                                          
 
 - Designed tables, keys, and relationships 📊
 - Implemented constraints for data integrity 🔐
@@ -499,8 +499,8 @@ Analyzed Flip Key problem and solution strategy 🗝️
 
 ---
 
-## Day 42 — February 7, 2026 — Submission & DB Implementation 📅
-***What I Learned**: 📚
+## Day 42 — February 7, 2026 — Submission & DB Implementation 📅                           
+***What I Learned**: 📚                                                   
 
 - Prepared DBMS command query files 📄
 - Completed Healthcare application modules 🏥
@@ -509,8 +509,8 @@ Analyzed Flip Key problem and solution strategy 🗝️
 
 ---
 
-## Day 43 — February 10, 2026 — Mock Practice Systems 📅
-**What I Learned:** 📚
+## Day 43 — February 10, 2026 — Mock Practice Systems 📅                                      
+**What I Learned:** 📚                                       
 
 - Solved City Management System scenario 🏙️
 - Designed Application Activity Archival System 📁
@@ -519,9 +519,9 @@ Analyzed Flip Key problem and solution strategy 🗝️
 
 ---
 
-## Day 44 — February 11–12, 2026 — NotifyHub System 📅
-**Topic:** Concurrent Notification Processing System 📩
-**What I Learned:** 📚
+## Day 44 — February 11–12, 2026 — NotifyHub System 📅                              
+**Topic:** Concurrent Notification Processing System 📩               
+**What I Learned:** 📚                                    
 
 - Designed concurrent notification processor 🧵
 - Implemented async/await and Task-based execution ⚡
@@ -532,9 +532,9 @@ Analyzed Flip Key problem and solution strategy 🗝️
 
 ---
 
-## Day 45 — February 13, 2026 — Email Validator (Regex + Annotations) 📅
-**Topic:** Regex, Validation & File Handling 📧
-**What I Learned:** 📚
+## Day 45 — February 13, 2026 — Email Validator (Regex + Annotations) 📅                           
+**Topic:** Regex, Validation & File Handling 📧                        
+**What I Learned:** 📚                          
 
 - Implemented Regex-based email validation 🔎
 - Applied pattern matching and structured validation 📄
@@ -544,8 +544,8 @@ Analyzed Flip Key problem and solution strategy 🗝️
 
  ---
  
-## Day 46 — February 16, 2026 — Bank Transaction Processing System 📅
-**What I Learned:** 📚
+## Day 46 — February 16, 2026 — Bank Transaction Processing System 📅                
+**What I Learned:** 📚                                  
 
 - Designed SQL tables for Accounts & Transactions 🗄️
 - Implemented SQL transactions (BEGIN, COMMIT, ROLLBACK) 🔄
@@ -557,9 +557,9 @@ Analyzed Flip Key problem and solution strategy 🗝️
 
 ---
 
-## Day 47 — February 17, 2026 — ASP.NET Core Basics 📅
-**Topic:** Web Application Introduction 🌐
-**What I Learned:** 📚
+## Day 47 — February 17, 2026 — ASP.NET Core Basics 📅                         
+**Topic:** Web Application Introduction 🌐                     
+**What I Learned:** 📚                                            
 
 - Introduction to ASP.NET Core framework 🏗️
 - Built Quantity Measurement Application (basic version) 📏
@@ -567,8 +567,8 @@ Analyzed Flip Key problem and solution strategy 🗝️
 
 ---
 
-## Day 48 — February 18, 2026 — Mock Test M1 📅
-**What I Learned:** 📚
+## Day 48 — February 18, 2026 — Mock Test M1 📅                                   
+**What I Learned:** 📚                                      
 
 - Attempted comprehensive mock test 📝
 - Revised ADO.NET, SQL, Multithreading & Collections 🔄
@@ -576,8 +576,8 @@ Analyzed Flip Key problem and solution strategy 🗝️
 
 ---
 
-## Day 49 — February 19, 2026 — Web API & Entity Framework 📅
-**What I Learned:** 📚
+## Day 49 — February 19, 2026 — Web API & Entity Framework 📅                       
+**What I Learned:** 📚                                                     
 
 - Built RESTful APIs using ASP.NET Core 🌐
 - Learned ORM concept using Entity Framework ⚙️
@@ -586,8 +586,8 @@ Analyzed Flip Key problem and solution strategy 🗝️
 
 ---
 
-## Day 50 — February 20, 2026 — Quantity Measurement App (UC-1 to UC-4) 📅
-**What I Learned:** 📚
+## Day 50 — February 20, 2026 — Quantity Measurement App (UC-1 to UC-4) 📅                      
+**What I Learned:** 📚                            
 
 - UC-1: 1 Feet Measurement Validation 📏
 - UC-2: Feet & Inches Conversion Logic 🔄
