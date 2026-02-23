@@ -586,24 +586,33 @@ Analyzed Flip Key problem and solution strategy 🗝️
 
 ---
 
-## Day 50 — February 20, 2026 — Quantity Measurement App (UC-1 to UC-4) 📅                      
-**What I Learned:** 📚                            
+## Day 50 — February 20, 2026 — Quantity Measurement App (UC-1 to UC-3) 📅                                          
+**What I Learned:** 📚                                           
 
 - UC-1: 1 Feet Measurement Validation 📏
 - UC-2: Feet & Inches Conversion Logic 🔄
 - UC-3: Generic Quantity Class (DRY Principle) 🧠
-- UC-4: Extended Unit Support (Inch, Feet, Yard etc.) 📐
 - Applied OOP, Generics, and API-based structure 🏗️
 - Strengthened clean architecture principles ⚙️
 
 ---
 
-## Day 51 - February 21, 2026 - Quantity Measurement App (UC-4 to UC-6) 📅
-**What I Learned:**📚
+## Day 51 - February 21, 2026 - Quantity Measurement App (UC-4 to UC-5) 📅               
+**What I Learned:** 📚                            
 
-- UC-5: Unit to Unit Conversion
-- UC-6: Addition of two length units
-- Applied Enums, base unit normalization, precision and bidirectional conversion
-- Handles same-unit and cross-unit addition and maintains immutability, commutativity, and precision.
+- UC-4: Extended Unit Support (Inch, Feet, Yard etc.) 📐              
+- UC-5: Unit to Unit Conversion 🏙️                                                        
+- Applied Enums, base unit normalization, precision and bidirectional conversion 📦            
+- Demonstrates scalability and enum extensibility. ⚙️                              
+- Key concepts: precision, base unit normalization, bidirectional conversion.🌐               
 
+---
+
+## Day 52 - February 23, 2026 - Quantity Measurement App (UC-6 to UC-7) 📅                 
+**What I Learned:** 📚                                
+
+- UC-6: Addition of two length units 🏙️                         
+- UC7: Addition with Target Unit Specification 🗄️                                             
+- Handles same-unit and cross-unit addition and maintains immutability, commutativity, and precision. 🌐                                                   
+- Uses method overloading and private utility method for clean, DRY implementation. 🧠               
 
