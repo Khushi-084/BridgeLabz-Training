@@ -30,11 +30,11 @@ public class AppointmentService : IAppointmentService
             checkCmd.Parameters.AddWithValue("@time", time);
 
             con.Open();
-            int count = (int)checkCmd.ExecuteScalar();
+            int count = (int)checkCmd.ExecuteScalar();  //Returns single value; here number of matching rows
 
             if (count > 0)
             {
-                Console.WriteLine("❌ Slot not available");
+                Console.WriteLine("Slot not available");
                 return;
             }
 
@@ -49,7 +49,7 @@ public class AppointmentService : IAppointmentService
             cmd.Parameters.AddWithValue("@time", time);
 
             cmd.ExecuteNonQuery();
-            Console.WriteLine("✅ Appointment Booked");
+            Console.WriteLine("Appointment Booked");
         }
     }
 
@@ -93,7 +93,9 @@ public class AppointmentService : IAppointmentService
         using (SqlConnection con = DBConnection.GetConnection())
         {
             con.Open();
-            SqlTransaction tx = con.BeginTransaction();
+            SqlTransaction tx = con.BeginTransaction();  // Because two operations must succeed together:
+                                                         // Update appointment status
+                                                         // Insert audit log
 
             try
             {
@@ -110,12 +112,12 @@ public class AppointmentService : IAppointmentService
                 auditCmd.ExecuteNonQuery();
 
                 tx.Commit();
-                Console.WriteLine("✅ Appointment Cancelled");
+                Console.WriteLine("Appointment Cancelled");
             }
             catch
             {
                 tx.Rollback();
-                Console.WriteLine("❌ Cancellation Failed");
+                Console.WriteLine("Cancellation Failed");
             }
         }
     }
@@ -151,12 +153,12 @@ public class AppointmentService : IAppointmentService
 
                 cmd.ExecuteNonQuery();
                 tx.Commit();
-                Console.WriteLine("✅ Appointment Rescheduled");
+                Console.WriteLine(" Appointment Rescheduled");
             }
             catch
             {
                 tx.Rollback();
-                Console.WriteLine("❌ Conflict Detected");
+                Console.WriteLine("Conflict Detected");
             }
         }
     }
