@@ -614,5 +614,151 @@ Analyzed Flip Key problem and solution strategy 🗝️
 - UC-6: Addition of two length units 🏙️                         
 - UC7: Addition with Target Unit Specification 🗄️                                             
 - Handles same-unit and cross-unit addition and maintains immutability, commutativity, and precision. 🌐                                                   
-- Uses method overloading and private utility method for clean, DRY implementation. 🧠               
+- Uses method overloading and private utility method for clean, DRY implementation. 🧠
 
+## Day 53 — February 24, 2026 — Quantity Measurement App (UC-8) 📅
+**Topic: Subtraction of Length Units** ➖📏
+**What I Learned:** 📚
+
+- Implemented subtraction of two quantity measurements 🧮
+- Supported both same-unit and cross-unit subtraction 🔄
+- Performed automatic unit conversion before subtraction ⚙️
+- Returned result in default (first operand unit) and custom target unit 📐
+- Handled negative results and ensured immutability ✅
+- Applied epsilon-based comparison for precision handling 🎯
+  
+## Day 54 — February 25, 2026 — Quantity Measurement App (UC-9) 📅
+**Topic: Multi-Category Measurement Support** 📦
+**What I Learned:** 📚
+
+- Extended application to support Length, Volume, and Weight ⚖️
+- Created separate classes for each category 🏗️
+- Implemented equality, conversion, addition, and subtraction per category 🔄
+- Prevented cross-category operations (type safety) 🚫
+- Identified code duplication issue (DRY violation) ⚠️
+- Understood design limitations and need for refactoring 🧠
+  
+## Day 55 — February 26, 2026 — Quantity Measurement App (UC-10) 📅
+**Topic: Generic Quantity Class with Interface** 🧠
+**What I Learned:** 📚
+
+- Refactored code using generic class Quantity<TUnit> 🔄
+- Implemented common IUnit interface for all units ⚙️
+- Eliminated duplication across categories (DRY principle) ✅
+- Ensured compile-time type safety 🚫
+- Centralized conversion logic 📦
+- Applied Open/Closed Principle (OCP) 🏗️
+  
+## Day 56 — February 27, 2026 — Quantity Measurement App (UC-11) 📅
+**Topic: Multi-Category Support using Generics** 📊
+**What I Learned:** 📚
+
+- Used generics to handle multiple measurement categories efficiently 🧠
+- Implemented IMeasurable interface across unit enums ⚙️
+- Enabled equality and conversions within same category 🔄
+-Prevented cross-category operations at compile time 🚫
+- Improved reusability and scalability 📈
+  
+## Day 57 — February 28, 2026 — Quantity Measurement App (UC-12) 📅
+**Topic: Arithmetic Operations on Quantities** ➕➖➗
+**What I Learned:** 📚
+
+- Implemented addition, subtraction, and division operations 🧮
+- Supported cross-unit arithmetic using base unit conversion 🔄
+- Used method overloading for target unit specification 📐
+- Division returns dimensionless scalar value ⚖️
+- Ensured validation and exception handling 🚨
+  
+## Day 58 — March 1, 2026 — Quantity Measurement App (UC-13) 📅
+**Topic: Centralized Arithmetic Logic (DRY Principle)** 🧠
+**What I Learned:** 📚
+
+- Refactored arithmetic logic into a centralized helper method ⚙️
+- Introduced ArithmeticOperation enum 🔢
+- Removed duplicated validation and conversion logic ✅
+- Improved maintainability and scalability 📈
+- Enabled easy extension for future operations 🔄
+  
+## Day 59 — March 2, 2026 — Quantity Measurement App (UC-14) 📅
+**Topic: Temperature Measurement & Selective Arithmetic** 🌡️
+**What I Learned:** 📚
+
+- Added Temperature category (Celsius, Fahrenheit, Kelvin) 🌡️
+- Allowed only equality and conversion operations 🔄
+- Restricted arithmetic operations ❌
+- Used interface default methods and functional approach ⚙️
+- Ensured proper exception handling for unsupported operations 🚨
+  
+## Day 60 — March 3, 2026 — Quantity Measurement App (UC-15) 📅
+**Topic: ADO.NET Integration & Persistence** 🗄️
+**What I Learned:** 📚
+
+- Integrated SQL Server using ADO.NET 🔗
+- Performed CRUD operations using SqlConnection, SqlCommand 🧾
+- Stored operation history in database 📊
+- Managed connections and executed queries manually ⚙️
+- Enabled data tracking and debugging 📈
+  
+## Day 61 — March 4, 2026 — Quantity Measurement App (UC-16) 📅
+**Topic: Repository Pattern & Data Access Layer** 🏗️
+**What I Learned:** 📚
+
+- Implemented Repository Pattern for clean architecture 🧠
+- Created interfaces and concrete repository classes 📦
+- Separated business logic and data access 🔄
+- Improved maintainability and testability ✅
+- Prepared project for caching and service layers ⚙️
+  
+## Day 62 — March 5–7, 2026 — Quantity Measurement App (UC-17) 📅
+**Topic: ASP.NET Core Web API Development** 🌐
+**What I Learned:** 📚
+
+- Converted console app into ASP.NET Core Web API 🚀
+- Created controllers for compare, convert, add operations 📡
+- Implemented DTOs and model validation 📦
+- Structured API responses for consistency 🔄
+- Integrated SQL Server with API 🗄️
+- Used Swagger for API testing and documentation 📄
+- Followed layered architecture (Controller → Service → Repository) 🏗️
+  
+## Day 63 — March 8–12, 2026 — Authentication & Security Implementation 📅
+**Topic: JWT, Password Security & Encryption** 🔐
+**What I Learned:** 📚
+
+- Implemented JWT-based authentication 🔑
+- Built Login and Signup APIs 👤
+- Applied password hashing with salting 🧂
+- Implemented encryption and decryption for sensitive data 🔐
+- Secured API endpoints using authorization ⚙️
+- Followed best practices for secure system design 🛡️
+  
+## Day 64 — March 13–18, 2026 — Redis Caching Integration 📅
+**Topic: Performance Optimization using Redis** ⚡
+**What I Learned:** 📚
+
+- Integrated Redis for caching frequently accessed data 🧠
+- Reduced database load and improved performance 🚀
+- Cached operation history and API responses 📦
+- Learned cache invalidation strategies 🔄
+- Improved system scalability ⚙️
+
+## Day 65 — March 19–25, 2026 — UC-18 Completion & System Enhancement 📅
+**Topic: Final Integration of Security & Performance** 🚀
+**What I Learned:** 📚
+
+- Combined authentication and caching into system 🔐⚡
+- Ensured secure and optimized API responses 📡
+- Tested end-to-end system functionality ✅
+- Handled edge cases and exceptions properly 🚨
+- Improved overall application reliability and scalability 📈
+  
+## Day 66 — March 26–30, 2026 — Final Review & Industry Readiness 📅
+**Topic: Project Refinement & Interview Preparation** 🎯
+**What I Learned:** 📚
+
+- Reviewed complete project from UC-1 to UC-18 🔄
+- Strengthened understanding of architecture and design 🧠
+- Prepared explanations for interviews and meetings 💬
+- Practiced real-world questions (EF, Repository, JWT, Redis) 📚
+- Optimized code structure and documentation 📄
+- Made project industry-ready 🚀
