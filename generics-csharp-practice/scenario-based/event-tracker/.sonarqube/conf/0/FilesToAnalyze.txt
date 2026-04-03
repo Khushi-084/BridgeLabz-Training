@@ -1,0 +1,6 @@
+﻿D:\BridgeLabz-Training\generics-csharp-practice\scenario-based\event-tracker\AuditTrailAttribute .cs
+D:\BridgeLabz-Training\generics-csharp-practice\scenario-based\event-tracker\EventLog.cs
+D:\BridgeLabz-Training\generics-csharp-practice\scenario-based\event-tracker\EventTracker.cs
+D:\BridgeLabz-Training\generics-csharp-practice\scenario-based\event-tracker\Program.cs
+D:\BridgeLabz-Training\generics-csharp-practice\scenario-based\event-tracker\UserActions.cs
+D:\BridgeLabz-Training\generics-csharp-practice\scenario-based\event-tracker\obj\Debug\net10.0\apphost.exe

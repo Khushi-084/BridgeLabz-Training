@@ -1,0 +1,96 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.0"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1770012199000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "event-tracker"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker"
+    },
+    {
+      "key": "sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "679659F6-8FCF-4418-83F7-09D9447C0FC3"
+    },
+    {
+      "key": "679659F6-8FCF-4418-83F7-09D9447C0FC3.sonar.projectKey",
+      "value": "event-tracker:679659F6-8FCF-4418-83F7-09D9447C0FC3"
+    },
+    {
+      "key": "679659F6-8FCF-4418-83F7-09D9447C0FC3.sonar.projectName",
+      "value": "event-tracker"
+    },
+    {
+      "key": "679659F6-8FCF-4418-83F7-09D9447C0FC3.sonar.projectBaseDir",
+      "value": "D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker"
+    },
+    {
+      "key": "679659F6-8FCF-4418-83F7-09D9447C0FC3.sonar.working.directory",
+      "value": "D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "679659F6-8FCF-4418-83F7-09D9447C0FC3.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "679659F6-8FCF-4418-83F7-09D9447C0FC3.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "679659F6-8FCF-4418-83F7-09D9447C0FC3.sonar.sources",
+      "value": "D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\AuditTrailAttribute .cs,D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\EventLog.cs,D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\EventTracker.cs,D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\Program.cs,D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\UserActions.cs,D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\obj\\event-tracker.csproj.nuget.dgspec.json,D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\obj\\project.assets.json,D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\bin\\Debug\\net10.0\\event-tracker.deps.json,D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\bin\\Debug\\net10.0\\event-tracker.runtimeconfig.json,D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\obj\\Debug\\net10.0\\event-tracker.sourcelink.json"
+    },
+    {
+      "key": "679659F6-8FCF-4418-83F7-09D9447C0FC3.sonar.cs.analyzer.projectOutPaths",
+      "value": "D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "679659F6-8FCF-4418-83F7-09D9447C0FC3.sonar.cs.roslyn.reportFilePaths",
+      "value": "D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "679659F6-8FCF-4418-83F7-09D9447C0FC3.sonar.cs.scanner.telemetry",
+      "value": "D:\\BridgeLabz-Training\\generics-csharp-practice\\scenario-based\\event-tracker\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "sonar.login",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://localhost:9000"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}
